@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on LC-Research</title>
+    <link>/blog/</link>
+    <description>Recent content in Blogs on LC-Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Nov 2016 18:25:22 +0530</lastBuildDate>
+    
+	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Metabolomics: A Potential Path for Early Detection of Terminal Diseases</title>
+      <link>/blog/metabolomics/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      
+      <guid>/blog/metabolomics/</guid>
+      <description>&lt;p&gt;Early detection is a misnomer.  At the time of diagnosis, a solid tumor developing in the breast, colon, lung, or prostate has grown to 1 cm in size and contains 1 billion cells. The average time for this growth to reach a detectable size is 10 years. Cancer destined to spread to other vital organs has already done so.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
