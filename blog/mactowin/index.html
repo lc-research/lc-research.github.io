@@ -2,7 +2,7 @@
 <html lang="en-us">
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Blogs</title>
+<title>Getting Rid of ._ and .DS_Store Files</title>
 <meta name="description" content="lc-research.com">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="all,follow">
@@ -28,9 +28,6 @@
 
 <link href="https://lc-research.com/css/custom.css" rel="stylesheet">
 <link rel="shortcut icon" href="https://lc-research.com/img/favicon.png">
-
-  <link href="https://lc-research.com/blog/index.xml" rel="alternate" type="application/rss+xml" title="LC-Research" />
-  <link href="https://lc-research.com/blog/index.xml" rel="feed" type="application/rss+xml" title="LC-Research" />
 
 
 <script type="application/javascript">
@@ -110,70 +107,52 @@ if (!doNotTrack) {
 </div>
 
               
-  <div class="col-xs-12 col-sm-8 col-md-9 content-column">
-    <div class="small-navbar visible-xs">
+<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
+  <div class="small-navbar visible-xs">
   <button type="button" data-toggle="offcanvas" class="btn btn-ghost pull-left"> <i class="fa fa-align-left"> </i>Menu</button>
   <h1 class="small-navbar-heading"><a href="https://lc-research.com">LC-Research</a></h1>
 </div>
 
-    <div class="grid">
-        <div class="row">
-          
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item">
-                  <div class="box-masonry">
-                      
-                        
-                        <a href="https://lc-research.com/blog/mactowin/" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
-                        
-                            <img src="https://lc-research.com/img/blog/mactowin.jpg" alt="" class="img-responsive">
-                        </a>
-                      
-                      
-                      <div class="box-masonry-text">
-                      
-                          <h4><a href="https://lc-research.com/blog/mactowin/">Getting Rid of ._ and .DS_Store Files</a></h4>
-                          <div class="box-masonry-description">
-                            <p>
-                                
-                                  You may be a Windows user who received a bunch of folders from a work colleague who is using a Mac. Or you may be frequently sharing files between a Mac and a Windows computer. Or you may be copying files from your Mac to USB sticks. Whatever the use case, you must have encountered the mystical and annoying ._ files.
-What exactly are these files? How do you get rid of those?
-                                
-                            </p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 masonry-item">
-                  <div class="box-masonry">
-                      
-                        
-                        <a href="https://lc-research.com/blog/metabolomics/" title="" class="box-masonry-image with-hover-overlay with-hover-icon">
-                        
-                            <img src="https://lc-research.com/img/blog/cancer.jpg" alt="" class="img-responsive">
-                        </a>
-                      
-                      
-                      <div class="box-masonry-text">
-                      
-                          <h4><a href="https://lc-research.com/blog/metabolomics/">Metabolomics: A Potential Path for Early Detection of Terminal Diseases</a></h4>
-                          <div class="box-masonry-description">
-                            <p>
-                                
-                                  <blockquote>
-<p>Early detection is a misnomer.  At the time of diagnosis, a solid tumor developing in the breast, colon, lung, or prostate has grown to 1 cm in size and contains 1 billion cells. The average time for this growth to reach a detectable size is 10 years. Cancer destined to spread to other vital organs has already done so.</p>
-</blockquote>
-                                
-                            </p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          
-        </div>
-    </div>
-</div>
+  <div class="row">
+    <div class="col-lg-8">
+      <div class="content-column-content">
+         <h1>Getting Rid of ._ and .DS_Store Files</h1>
+         <p>You may be a Windows user who received a bunch of folders from a work colleague who is using a Mac. Or you may be frequently sharing files between a Mac and a Windows computer. Or you may be copying files from your Mac to USB sticks. Whatever the use case, you must have encountered the mystical and annoying ._ files.</p>
+<p>What exactly are these files? How do you get rid of those? These are the questions that I hope to answer in this blog post.</p>
+<h4 id="appledouble-files">AppleDouble Files</h4>
+<p>Under Macintosh file systems such as HFS (Hierarchical File System), HFS+ (also known as MacOS Extended) or APFS (Apple File System) files are composed of two pieces called forks. These two pieces are called data fork and resource fork. The data fork is akin to what we call a file in Windows. It contains the actual data like text in a word document. The resource fork contains the meta data and extended attributes. What appears as a single file under the Macintosh file system splits into two files under certain other file systems such as FAT. The file with the same name as the original contains the data fork. The file that starts with ._original file name contains the resource fork. This is the origin of mystical &ldquo;AppleDouble&rdquo; files.</p>
+<h4 id="desktop-services-store-files">Desktop Services Store Files</h4>
+<p>The default file manager in the Apple macOS operating system, Finder creates Desktop Services Store files (abbreviated as .DS_Store) in every folder. The .DS_Store files keep metadata about its containing folder. These include things like positions of icons and information about background images. When a folder is transferred from a Mac to a PC or a USB stick, these macOS hidden files starts to show up under all directories.</p>
+<h4 id="windows-del-command-to-the-rescue">Windows del Command to the Rescue</h4>
+<p>Windows del command that deletes one or more files can be used to wipe out ._ and .DS_Store files. This command can be run from Windows Command Prompt. The syntax shown below will not work under Windows PowerShell.</p>
+<p>The command <strong>del /s /f /q /a:h ._*</strong> should get rid of all AppleDouble files.</p>
+<p>The command <strong>del /s /f /q /a:h .DS_Store</strong> should get rid of desktop services store files.</p>
+<p>The <strong>/f</strong> flag forces deletion of read-only files. The <strong>/s</strong> flag makes deletion recursive through current sub directory and all of its sub directories. The <strong>/q</strong> which stand for quiet mode prevents prompt for delete confirmation. Finally, the <strong>/a:h</strong> attribute makes deletion of hidden files possible.</p>
 
+         <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "scientisoft" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+  </div>
+</div>
 
           </div>
       </div>
