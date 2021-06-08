@@ -118,7 +118,7 @@ if (!doNotTrack) {
       <div class="content-column-content">
          <h1>Getting Rid of ._ and .DS_Store Files</h1>
          <p>You may be a Windows user who received a bunch of folders from a work colleague who is using a Mac. Or you may be frequently sharing files between a Mac and a Windows computer. Or you may be copying files from your Mac to USB sticks. Whatever the use case, you must have encountered the mystical and annoying ._ files.</p>
-<p>What exactly are these files? How do you get rid of those? These are the questions that I hope to answer in this blog post.</p>
+<p>What exactly are these files? How do you get rid of them? These are the questions that I hope to answer in this blog post.</p>
 <h4 id="appledouble-files">AppleDouble Files</h4>
 <p>Under Macintosh file systems such as HFS (Hierarchical File System), HFS+ (also known as MacOS Extended) or APFS (Apple File System) files are composed of two pieces called forks. These two pieces are called data fork and resource fork. The data fork is akin to what we call a file in Windows. It contains the actual data like text in a word document. The resource fork contains the meta data and extended attributes. What appears as a single file under the Macintosh file system splits into two files under certain other file systems such as FAT. The file with the same name as the original contains the data fork. The file that starts with ._original file name contains the resource fork. This is the origin of mystical &ldquo;AppleDouble&rdquo; files.</p>
 <h4 id="desktop-services-store-files">Desktop Services Store Files</h4>

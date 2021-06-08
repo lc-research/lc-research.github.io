@@ -6,7 +6,16 @@
     <description>Recent content in Blogs on LC-Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Jun 2021 08:00:22 +0530</lastBuildDate><atom:link href="https://lc-research.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Jun 2021 22:30:22 +0530</lastBuildDate><atom:link href="https://lc-research.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Glide App</title>
+      <link>https://lc-research.com/blog/glide/</link>
+      <pubDate>Sat, 05 Jun 2021 22:30:22 +0530</pubDate>
+      
+      <guid>https://lc-research.com/blog/glide/</guid>
+      <description>Over the years, I have acquired a bucketload of electronic gadgets. Many of these carried built in batteries that needed frequent charging. Only a few of these gadgets are in regular use. Many sit in shelves, sometimes even months without any use. To much of my dismay, a few of these silently died in shelves due to completely drained batteries. After loosing a fair amount of beloved gadgets, I finally decided to have some control over the charging business.</description>
+    </item>
+    
     <item>
       <title>Getting Rid of ._ and .DS_Store Files</title>
       <link>https://lc-research.com/blog/mactowin/</link>
@@ -14,7 +23,7 @@
       
       <guid>https://lc-research.com/blog/mactowin/</guid>
       <description>You may be a Windows user who received a bunch of folders from a work colleague who is using a Mac. Or you may be frequently sharing files between a Mac and a Windows computer. Or you may be copying files from your Mac to USB sticks. Whatever the use case, you must have encountered the mystical and annoying ._ files.
-What exactly are these files? How do you get rid of those?</description>
+What exactly are these files? How do you get rid of them?</description>
     </item>
     
     <item>
