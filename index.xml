@@ -6,16 +6,7 @@
     <description>Recent content on LC-Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://lc-research.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Setting up a Raspberry Pi Media Server</title>
-      <link>https://lc-research.com/blog/minidlna/</link>
-      <pubDate>Wed, 09 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lc-research.com/blog/minidlna/</guid>
-      <description>It has been a little over three years since I have setup a Raspberry Pi based wireless media server. This little media server has done a great job and it continues to function flawlessly serving many DLNA clients in the home network including one 3D projector, several mobile phones, tablets, PCs and Macs. I needed an always on light weight media server that can serve all of my DLNA compliant devices.</description>
-    </item>
-    
+    <lastBuildDate>Sat, 05 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://lc-research.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Glide App</title>
       <link>https://lc-research.com/blog/glide/</link>
