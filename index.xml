@@ -13,7 +13,7 @@
       <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lc-research.com/blog/glide/</guid>
-      <description>Over the years, I have acquired a bucketload of electronic gadgets. Many of these carried built in batteries that needed frequent charging. Only a few of these gadgets are in regular use. Many sit in shelves, sometimes even months without any use. To much of my dismay, a few of these silently died in shelves due to completely drained batteries. After loosing a fair amount of beloved gadgets, I finally decided to have some control over the charging business.</description>
+      <description>Over the years, I have acquired a fair number of electronic devices. Many of these carry built in batteries and require frequent charging. Only a few of these devices are in regular use. Many sit in shelves, sometimes even months without any use. To much of my dismay, a few of these silently died in shelves due to completely drained batteries. After loosing a fair amount of beloved gadgets, I finally decided to have some control over the charging business.</description>
     </item>
     
     <item>
@@ -44,6 +44,17 @@ What exactly are these files? How do you get rid of them?</description>
       
       <guid>https://lc-research.com/about/</guid>
       <description>Dr. Lochana C. Menikarachchi obtained his Ph.D. in Computational Biochemistry from the University of Connecticut, USA. He has more than 10 years of experience in interdisciplinary research, designing and developing software tools for life/chemical sciences industry.</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://lc-research.com/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lc-research.com/publications/</guid>
+      <description>Selected Journal Articles   Menikarachchi, L. C.; Gascón, J. A. Optimization of Cutting Schemes for the Evaluation of Molecular Electrostatic Potentials in Proteins via Moving-Domain QM/MM. J. Mol. Model. 2008, 14, 479–487
+  Menikarachchi, L. C. Gascón, J. A. QM/MM Approaches in Medicinal Chemistry Research. Curr. Top. Med. Chem. 2010, 10, 46–54
+  Menikarachchi, L. C.; Gascón, J. a. An Extrapolation Method for Computing Protein Solvation Energies Based on Density Fragmentation of a Graphical Surface Tessellation.</description>
     </item>
     
   </channel>
