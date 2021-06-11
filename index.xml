@@ -6,11 +6,20 @@
     <description>Recent content on LC-Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Jun 2021 22:30:22 +0530</lastBuildDate><atom:link href="https://lc-research.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://lc-research.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting up a Raspberry Pi Media Server</title>
+      <link>https://lc-research.com/blog/minidlna/</link>
+      <pubDate>Wed, 09 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lc-research.com/blog/minidlna/</guid>
+      <description>It has been a little over three years since I have setup a Raspberry Pi based wireless media server. This little media server has done a great job and it continues to function flawlessly serving many DLNA clients in the home network including one 3D projector, several mobile phones, tablets, PCs and Macs. I needed an always on light weight media server that can serve all of my DLNA compliant devices.</description>
+    </item>
+    
     <item>
       <title>My First Glide App</title>
       <link>https://lc-research.com/blog/glide/</link>
-      <pubDate>Sat, 05 Jun 2021 22:30:22 +0530</pubDate>
+      <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lc-research.com/blog/glide/</guid>
       <description>Over the years, I have acquired a bucketload of electronic gadgets. Many of these carried built in batteries that needed frequent charging. Only a few of these gadgets are in regular use. Many sit in shelves, sometimes even months without any use. To much of my dismay, a few of these silently died in shelves due to completely drained batteries. After loosing a fair amount of beloved gadgets, I finally decided to have some control over the charging business.</description>
@@ -19,7 +28,7 @@
     <item>
       <title>Getting Rid of ._ and .DS_Store Files</title>
       <link>https://lc-research.com/blog/mactowin/</link>
-      <pubDate>Tue, 01 Jun 2021 08:00:22 +0530</pubDate>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lc-research.com/blog/mactowin/</guid>
       <description>You may be a Windows user who received a bunch of folders from a work colleague who is using a Mac. Or you may be frequently sharing files between a Mac and a Windows computer. Or you may be copying files from your Mac to USB sticks. Whatever the use case, you must have encountered the mystical and annoying ._ files.
@@ -29,12 +38,21 @@ What exactly are these files? How do you get rid of them?</description>
     <item>
       <title>Metabolomics: A Potential Path for Early Detection of Terminal Diseases</title>
       <link>https://lc-research.com/blog/metabolomics/</link>
-      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      <pubDate>Sat, 05 Nov 2016 00:00:00 +0000</pubDate>
       
       <guid>https://lc-research.com/blog/metabolomics/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Early detection is a misnomer.  At the time of diagnosis, a solid tumor developing in the breast, colon, lung, or prostate has grown to 1 cm in size and contains 1 billion cells. The average time for this growth to reach a detectable size is 10 years. Cancer destined to spread to other vital organs has already done so.&lt;/p&gt;
 &lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://lc-research.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lc-research.com/about/</guid>
+      <description>Dr. Lochana C. Menikarachchi obtained his Ph.D. in Computational Biochemistry from the University of Connecticut, USA. He has more than 10 years of experience in interdisciplinary research, designing and developing software tools for life/chemical sciences industry.</description>
     </item>
     
   </channel>

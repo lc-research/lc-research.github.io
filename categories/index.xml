@@ -5,6 +5,25 @@
     <link>https://lc-research.com/categories/</link>
     <description>Recent content in Categories on LC-Research</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://lc-research.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Wed, 09 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://lc-research.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Computer Science</title>
+      <link>https://lc-research.com/categories/computer-science/</link>
+      <pubDate>Wed, 09 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lc-research.com/categories/computer-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Life Sciences</title>
+      <link>https://lc-research.com/categories/life-sciences/</link>
+      <pubDate>Sat, 05 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://lc-research.com/categories/life-sciences/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

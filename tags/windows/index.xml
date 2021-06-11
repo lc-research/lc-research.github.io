@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows on LC-Research</title>
+    <link>https://lc-research.com/tags/windows/</link>
+    <description>Recent content in Windows on LC-Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://lc-research.com/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Rid of ._ and .DS_Store Files</title>
+      <link>https://lc-research.com/blog/mactowin/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lc-research.com/blog/mactowin/</guid>
+      <description>You may be a Windows user who received a bunch of folders from a work colleague who is using a Mac. Or you may be frequently sharing files between a Mac and a Windows computer. Or you may be copying files from your Mac to USB sticks. Whatever the use case, you must have encountered the mystical and annoying ._ files.
+What exactly are these files? How do you get rid of them?</description>
+    </item>
+    
+  </channel>
+</rss>
