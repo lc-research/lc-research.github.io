@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://lc-research.com/disclaimer/</loc>
+    <lastmod>2021-06-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lc-research.com/privacy/</loc>
+    <lastmod>2021-06-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://lc-research.com/blog/</loc>
     <lastmod>2021-06-09T00:00:00+00:00</lastmod>
   </url><url>
@@ -32,6 +38,9 @@
     <loc>https://lc-research.com/tags/</loc>
     <lastmod>2021-06-09T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://lc-research.com/categories/tutorials/</loc>
+    <lastmod>2021-06-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://lc-research.com/tags/glide/</loc>
     <lastmod>2021-06-05T00:00:00+00:00</lastmod>
   </url><url>
@@ -51,9 +60,6 @@
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://lc-research.com/blog/mactowin/</loc>
-    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://lc-research.com/categories/tutorials/</loc>
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://lc-research.com/tags/windows/</loc>
