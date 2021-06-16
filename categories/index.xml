@@ -6,20 +6,29 @@
     <description>Recent content in Categories on LC-Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://lc-research.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://lc-research.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>IT</title>
       <link>https://lc-research.com/categories/it/</link>
-      <pubDate>Wed, 09 Jun 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lc-research.com/categories/it/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Reviews</title>
+      <link>https://lc-research.com/categories/reviews/</link>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lc-research.com/categories/reviews/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Tutorials</title>
       <link>https://lc-research.com/categories/tutorials/</link>
-      <pubDate>Wed, 09 Jun 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lc-research.com/categories/tutorials/</guid>
       <description></description>
@@ -31,15 +40,6 @@
       <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lc-research.com/categories/mobile-apps/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reviews</title>
-      <link>https://lc-research.com/categories/reviews/</link>
-      <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lc-research.com/categories/reviews/</guid>
       <description></description>
     </item>
     
