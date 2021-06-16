@@ -13,7 +13,9 @@
       <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lc-research.com/blog/twstotv/</guid>
-      <description>Since my son&amp;rsquo;s arrival, watching a TV show or a movie on a TV became a near impossible task. Our little guy seemed to have a super hearing that could detect even inaudible footsteps miles away. He would wake up to the tiniest of tiny sounds. We had no choice but to put watching movies on big screen to the back burner. My poor wife resort to watching short video clips on her mobile phone with a wired earphone.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Is there anyway to watch movies on the big screen (TV or projector) without disturbing others? Can two people share  wireless audio at the same time? What about TWS earbuds? Can we use them with our TVs?&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
     
     <item>
@@ -43,7 +45,9 @@ This Privacy Policy applies only to our online activities and is valid for visit
       <pubDate>Wed, 09 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lc-research.com/blog/minidlna/</guid>
-      <description>It has been a little over three years since I have setup a Raspberry Pi based wireless media server. This little media server has done a great job and it continues to function flawlessly serving many DLNA clients in the home network including one 3D projector, several mobile phones, tablets, PCs and Macs. I needed an always on light weight media server that can serve all of my DLNA compliant devices.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;I got a whole bunch of movies, audio files and photos on my laptop. I am tired of copying these files to other devices at home. Is there anyway to keep them in one location and stream to all of my TVs, mobile phones, tablets and computers on the home network.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
     
     <item>
@@ -52,7 +56,9 @@ This Privacy Policy applies only to our online activities and is valid for visit
       <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lc-research.com/blog/glide/</guid>
-      <description>Over the years, I have acquired a fair number of electronic devices. Many of these carry built in batteries and require frequent charging. Only a few of these devices are in regular use. Many sit in shelves, sometimes even months without any use. To much of my dismay, a few of these silently died in shelves due to completely drained batteries. After loosing a fair amount of beloved gadgets, I finally decided to have some control over the charging business.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;I need to develop a personal mobile app that works on android. But, I don&amp;rsquo;t have much time on hand or coding skills required. I hear there are platforms that can turn spreadsheets into mobile apps. Is it even possible? How long would it take to build one from scratch?&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
     
     <item>
@@ -61,18 +67,8 @@ This Privacy Policy applies only to our online activities and is valid for visit
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lc-research.com/blog/mactowin/</guid>
-      <description>You may be a Windows user who received a bunch of folders from a work colleague who is using a Mac. Or you may be frequently sharing files between a Mac and a Windows computer. Or you may be copying files from your Mac to USB sticks. Whatever the use case, you must have encountered the mystical and annoying ._ files.
-What exactly are these files? How do you get rid of them?</description>
-    </item>
-    
-    <item>
-      <title>Metabolomics: A Potential Path for Early Detection of Terminal Diseases</title>
-      <link>https://lc-research.com/blog/metabolomics/</link>
-      <pubDate>Sat, 05 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://lc-research.com/blog/metabolomics/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;Early detection is a misnomer.  At the time of diagnosis, a solid tumor developing in the breast, colon, lung, or prostate has grown to 1 cm in size and contains 1 billion cells. The average time for this growth to reach a detectable size is 10 years. Cancer destined to spread to other vital organs has already done so.&lt;/p&gt;
+&lt;p&gt;I just got some folders from a Mac user. I see hundreds of ._ files and .DS_Store files all over my file system. Is it safe to delete these files? How can I get rid of them quickly?&lt;/p&gt;
 &lt;/blockquote&gt;</description>
     </item>
     
@@ -82,18 +78,8 @@ What exactly are these files? How do you get rid of them?</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lc-research.com/about/</guid>
-      <description>Dr. Lochana C. Menikarachchi obtained his Ph.D. in Computational Biochemistry from the University of Connecticut, USA. He has more than 10 years of experience in interdisciplinary research, designing and developing software tools for life/chemical sciences industry.</description>
-    </item>
-    
-    <item>
-      <title>Publications</title>
-      <link>https://lc-research.com/publications/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lc-research.com/publications/</guid>
-      <description>Selected Journal Articles   Menikarachchi, L. C.; Gascón, J. A. Optimization of Cutting Schemes for the Evaluation of Molecular Electrostatic Potentials in Proteins via Moving-Domain QM/MM. J. Mol. Model. 2008, 14, 479–487
-  Menikarachchi, L. C. Gascón, J. A. QM/MM Approaches in Medicinal Chemistry Research. Curr. Top. Med. Chem. 2010, 10, 46–54
-  Menikarachchi, L. C.; Gascón, J. a. An Extrapolation Method for Computing Protein Solvation Energies Based on Density Fragmentation of a Graphical Surface Tessellation.</description>
+      <description>There are plenty of blogs on tech and gadgets. Engadget, Gizmodo, C|net, you name it. Why do we need another one?
+I use all sorts of technologies to make my life easier. I thoroughly research products before I buy them. Once in a while, when something fails, I need to go back and fix something or reconfigure some software that I setup ages ago. The only problem is keeping everything in my memory, especially those that involve multiple steps.</description>
     </item>
     
   </channel>

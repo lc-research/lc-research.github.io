@@ -8,7 +8,9 @@
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
 		<meta property="og:title" content="Setting up a Raspberry Pi Media Server" />
-<meta property="og:description" content="It has been a little over three years since I have setup a Raspberry Pi based wireless media server. This little media server has done a great job and it continues to function flawlessly serving many DLNA clients in the home network including one 3D projector, several mobile phones, tablets, PCs and Macs. I needed an always on light weight media server that can serve all of my DLNA compliant devices." />
+<meta property="og:description" content="
+I got a whole bunch of movies, audio files and photos on my laptop. I am tired of copying these files to other devices at home. Is there anyway to keep them in one location and stream to all of my TVs, mobile phones, tablets and computers on the home network.
+" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://lc-research.com/blog/minidlna/" /><meta property="article:section" content="blog" />
 <meta property="article:published_time" content="2021-06-09T00:00:00&#43;00:00" />
@@ -16,13 +18,17 @@
 
 
 		<meta itemprop="name" content="Setting up a Raspberry Pi Media Server">
-<meta itemprop="description" content="It has been a little over three years since I have setup a Raspberry Pi based wireless media server. This little media server has done a great job and it continues to function flawlessly serving many DLNA clients in the home network including one 3D projector, several mobile phones, tablets, PCs and Macs. I needed an always on light weight media server that can serve all of my DLNA compliant devices."><meta itemprop="datePublished" content="2021-06-09T00:00:00&#43;00:00" />
+<meta itemprop="description" content="
+I got a whole bunch of movies, audio files and photos on my laptop. I am tired of copying these files to other devices at home. Is there anyway to keep them in one location and stream to all of my TVs, mobile phones, tablets and computers on the home network.
+"><meta itemprop="datePublished" content="2021-06-09T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2021-06-09T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="1124">
+<meta itemprop="wordCount" content="1175">
 <meta itemprop="keywords" content="Raspberry Pi,DLNA,Movian,RaspController," />
 		<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Setting up a Raspberry Pi Media Server"/>
-<meta name="twitter:description" content="It has been a little over three years since I have setup a Raspberry Pi based wireless media server. This little media server has done a great job and it continues to function flawlessly serving many DLNA clients in the home network including one 3D projector, several mobile phones, tablets, PCs and Macs. I needed an always on light weight media server that can serve all of my DLNA compliant devices."/>
+<meta name="twitter:description" content="
+I got a whole bunch of movies, audio files and photos on my laptop. I am tired of copying these files to other devices at home. Is there anyway to keep them in one location and stream to all of my TVs, mobile phones, tablets and computers on the home network.
+"/>
 
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
@@ -57,7 +63,7 @@ if (!doNotTrack) {
 					<img class="logo__img" src="/img/logo.png">
 				</div><div class="logo__item logo__text">
 					<div class="logo__title">LC  Research</div>
-					<div class="logo__tagline">Dr. Lochana C. Menikarachchi&#39;s Personal Blog</div>
+					<div class="logo__tagline">Everyday Tech to Make Life Easier</div>
 				</div>
 		</a>
 	</div>
@@ -78,13 +84,6 @@ if (!doNotTrack) {
 			<a class="menu__link" href="/about/">
 				
 				<span class="menu__text">About</span>
-				
-			</a>
-		</li>
-		<li class="menu__item">
-			<a class="menu__link" href="/publications/">
-				
-				<span class="menu__text">Publications</span>
 				
 			</a>
 		</li>
@@ -112,7 +111,10 @@ if (!doNotTrack) {
 		<figure class="post__thumbnail">
 			<img src="/img/blog/pi.jpg" alt="Setting up a Raspberry Pi Media Server">
 		</figure><div class="content post__content clearfix">
-			<p>It has been a little over three years since I have setup a Raspberry Pi based wireless media server. This little media server has done a great job and it continues to function flawlessly serving many DLNA clients in the home network including one 3D projector, several mobile phones, tablets, PCs and Macs. I needed an always on light weight media server that can serve all of my DLNA compliant devices. Three years back, when I was setting this up, I tried out many different media servers including KODI, OSMC, Plex and MiniDLNA.  At the end, I settled for a MiniDLNA server on a Raspberry Pi 3B+. My choice couldn&rsquo;t have been better.</p>
+			<blockquote>
+<p>I got a whole bunch of movies, audio files and photos on my laptop. I am tired of copying these files to other devices at home. Is there anyway to keep them in one location and stream to all of my TVs, mobile phones, tablets and computers on the home network.</p>
+</blockquote>
+<p>It has been a little over three years since I have setup a Raspberry Pi based wireless media server. This little media server has done a great job and it continues to function flawlessly serving many DLNA clients in the home network including one 3D projector, several mobile phones, tablets, PCs and Macs. I needed an always on light weight media server that can serve all of my DLNA compliant devices. Three years back, when I was setting this up, I tried out many different media servers including KODI, OSMC, Plex and MiniDLNA.  At the end, I settled for a MiniDLNA server on a Raspberry Pi 3B+. My choice couldn&rsquo;t have been better.</p>
 <h4 id="what-is-dlna">What is DLNA?</h4>
 <p>DLNA, which stands for <strong>Digital Living Network Alliance</strong> is an industry-wide standard for sharing digital media over a home network. DLNA compatible clients can connect to a DLNA server and consume digital media on the server through the home network. Any DLNA certified TV, projector or streaming device can act as a DLNA client. PCs, Macs, Linux boxes, mobile phones and tablets can be converted to DLNA clients by using appropriate DLNA client software. Any PC, Mac or Linux box can be configured as a DLNA server. Tiny single board computers such as Raspberry Pis are gaining popularity as DLNA servers due to their small footprint and low energy consumption. However, these credit card sized computers are limited by their processing power and other computational resources.</p>
 <h4 id="the-server-hardware">The Server Hardware</h4>
@@ -243,7 +245,6 @@ friendly_name<span style="color:#f92672">=</span>Name of your DLNA server
 <p>RaspController is an app that you can download from the Google play store. The free version of RaspController can be used for monitoring and basic maintenance of the media server. It can also be used to shutdown or reboot your Pi.</p>
 <h4 id="transferring-files-to-dlna-server">Transferring Files to DLNA Server</h4>
 <p>I found it slow to transfer large video files over the network to Pi. My workflow involves shutting down the server with RaspController, unplugging the USBs, transferring the files directly from a computer and re plugging USBs to Pi. Since, this is an occasional chore, it works out well for me.</p>
-
 		</div>
 		<div class="views">
 			<span class="views">
@@ -328,7 +329,6 @@ friendly_name<span style="color:#f92672">=</span>Name of your DLNA server
 			<li class="widget__item"><a class="widget__link" href="/blog/minidlna/">Setting up a Raspberry Pi Media Server</a></li>
 			<li class="widget__item"><a class="widget__link" href="/blog/glide/">My First Glide App</a></li>
 			<li class="widget__item"><a class="widget__link" href="/blog/mactowin/">Getting Rid of ._ and .DS_Store Files</a></li>
-			<li class="widget__item"><a class="widget__link" href="/blog/metabolomics/">Metabolomics: A Potential Path for Early Detection of Terminal Diseases</a></li>
 		</ul>
 	</div>
 </div>
@@ -338,8 +338,6 @@ friendly_name<span style="color:#f92672">=</span>Name of your DLNA server
 		<ul class="widget__list">
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/it/">IT</a></li>
-			<li class="widget__item">
-				<a class="widget__link" href="/categories/life-sciences/">Life Sciences</a></li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/mobile-apps/">Mobile Apps</a></li>
 			<li class="widget__item">
@@ -358,7 +356,6 @@ friendly_name<span style="color:#f92672">=</span>Name of your DLNA server
 		<a class="widget-taglist__link widget__link btn" href="/tags/cm107/" title="CM107">CM107</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/dlna/" title="DLNA">DLNA</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/glide/" title="Glide">Glide</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/metabolomics/" title="Metabolomics">Metabolomics</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/movian/" title="Movian">Movian</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/no-code/" title="No Code">No Code</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/raspberry-pi/" title="Raspberry Pi">Raspberry Pi</a>
