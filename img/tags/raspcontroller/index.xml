@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RaspController on LC-Research</title>
+    <link>https://lc-research.com/tags/raspcontroller/</link>
+    <description>Recent content in RaspController on LC-Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 09 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://lc-research.com/tags/raspcontroller/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting up a Raspberry Pi Media Server</title>
+      <link>https://lc-research.com/blog/minidlna/</link>
+      <pubDate>Wed, 09 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lc-research.com/blog/minidlna/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Wouldn&amp;rsquo;t it be nice to store all of your media files in one location and stream them to any device on your home network? An inexpensive Raspberry Pi and a couple of USB sticks can get the job done! This post guides you through all the steps required, step by step.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

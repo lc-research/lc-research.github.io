@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorials on LC-Research</title>
+    <link>https://lc-research.com/categories/tutorials/</link>
+    <description>Recent content in Tutorials on LC-Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 14 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://lc-research.com/categories/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Connecting TWS Earbuds to Any TV or Projector</title>
+      <link>https://lc-research.com/blog/twstotv/</link>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lc-research.com/blog/twstotv/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;This post shows you how you can connect two pairs of TWS earbuds with any TV or projector. Finally, both you and your partner can watch a movie on the big screen without waking the baby up.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Setting up a Raspberry Pi Media Server</title>
+      <link>https://lc-research.com/blog/minidlna/</link>
+      <pubDate>Wed, 09 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lc-research.com/blog/minidlna/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Wouldn&amp;rsquo;t it be nice to store all of your media files in one location and stream them to any device on your home network? An inexpensive Raspberry Pi and a couple of USB sticks can get the job done! This post guides you through all the steps required, step by step.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Getting Rid of ._ and .DS_Store Files</title>
+      <link>https://lc-research.com/blog/mactowin/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lc-research.com/blog/mactowin/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;When you  transfer files and folders from Macs to PCs and USB sticks a whole bunch of ._ files and .DS_Store files are generated. While there is no way to prevent this from happening, there is an easy way to get rid of these pesky files. This post shows you how.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

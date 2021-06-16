@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LC-Research</title>
+    <link>https://lc-research.com/</link>
+    <description>Recent content on LC-Research</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 14 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://lc-research.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Connecting TWS Earbuds to Any TV or Projector</title>
+      <link>https://lc-research.com/blog/twstotv/</link>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lc-research.com/blog/twstotv/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;This post shows you how you can connect two pairs of TWS earbuds with any TV or projector. Finally, both you and your partner can watch a movie on the big screen without waking the baby up.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Disclaimer</title>
+      <link>https://lc-research.com/disclaimer/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lc-research.com/disclaimer/</guid>
+      <description>WEBSITE DISCLAIMER The information provided by LC-Research (“Company”, “we”, “our”, “us”) on https://lc-research.com (the “Site”) is for general informational purposes only. All information on the Site is provided in good faith, however we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the Site.
+UNDER NO CIRCUMSTANCE SHALL WE HAVE ANY LIABILITY TO YOU FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE OF THE SITE OR RELIANCE ON ANY INFORMATION PROVIDED ON THE SITE.</description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>https://lc-research.com/privacy/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lc-research.com/privacy/</guid>
+      <description>At LC-Research, accessible from lc-research.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by LC-Research and how we use it.
+If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.
+This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in LC-Research.</description>
+    </item>
+    
+    <item>
+      <title>Setting up a Raspberry Pi Media Server</title>
+      <link>https://lc-research.com/blog/minidlna/</link>
+      <pubDate>Wed, 09 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lc-research.com/blog/minidlna/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Wouldn&amp;rsquo;t it be nice to store all of your media files in one location and stream them to any device on your home network? An inexpensive Raspberry Pi and a couple of USB sticks can get the job done! This post guides you through all the steps required, step by step.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>My First Glide App</title>
+      <link>https://lc-research.com/blog/glide/</link>
+      <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lc-research.com/blog/glide/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Glide is a no coding mobile app development platform that allows mobile apps to be built from Google spreadsheets. This post outlines my experience with Glide and how I built my first no coding app with a Google spreadsheet in just a few hours.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Getting Rid of ._ and .DS_Store Files</title>
+      <link>https://lc-research.com/blog/mactowin/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lc-research.com/blog/mactowin/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;When you  transfer files and folders from Macs to PCs and USB sticks a whole bunch of ._ files and .DS_Store files are generated. While there is no way to prevent this from happening, there is an easy way to get rid of these pesky files. This post shows you how.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://lc-research.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lc-research.com/about/</guid>
+      <description>There are plenty of blogs on tech and gadgets. Engadget, Gizmodo, C|net, you name it. Why would I write another tech blog. Isn&amp;rsquo;t this space crowded enough. My intention with this blog is not to compete with any other tech blog. This blog is a by product of my attempt to document some tech stuff.
+I dread doing repetitive tasks. Technology helped me immensely to automate things and simplify my life.</description>
+    </item>
+    
+  </channel>
+</rss>
