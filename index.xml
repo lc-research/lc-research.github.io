@@ -14,7 +14,7 @@
       
       <guid>https://lc-research.com/blog/twstotv/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;Is there anyway to watch movies on the big screen (TV or projector) without disturbing others? Can two people share  wireless audio at the same time? What about TWS earbuds? Can we use them with our TVs?&lt;/p&gt;
+&lt;p&gt;This post shows you how you can connect two pairs of TWS earbuds with any TV or projector. Finally, both you and your partner can watch a movie on the big screen with out waking the baby up.&lt;/p&gt;
 &lt;/blockquote&gt;</description>
     </item>
     
@@ -46,7 +46,7 @@ This Privacy Policy applies only to our online activities and is valid for visit
       
       <guid>https://lc-research.com/blog/minidlna/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;I got a whole bunch of movies, audio files and photos on my laptop. I am tired of copying these files to other devices at home. Is there anyway to keep them in one location and stream to all of my TVs, mobile phones, tablets and computers on the home network.&lt;/p&gt;
+&lt;p&gt;Wouldn&amp;rsquo;t it be nice to store all of your media files in one location and stream them to any device on your home network? An inexpensive Raspberry Pi and a couple of USB sticks can get the job done! This post guides you through all the steps required, step by step.&lt;/p&gt;
 &lt;/blockquote&gt;</description>
     </item>
     
@@ -57,7 +57,7 @@ This Privacy Policy applies only to our online activities and is valid for visit
       
       <guid>https://lc-research.com/blog/glide/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;I need to develop a personal mobile app that works on android. But, I don&amp;rsquo;t have much time on hand or coding skills required. I hear there are platforms that can turn spreadsheets into mobile apps. Is it even possible? How long would it take to build one from scratch?&lt;/p&gt;
+&lt;p&gt;Glide is a no coding mobile app development platform that allows mobile apps to be built from Google spreadsheets. This post outlines my experience with Glide and how I built my first no coding app with a Google spreadsheet in just few hours.&lt;/p&gt;
 &lt;/blockquote&gt;</description>
     </item>
     
@@ -68,7 +68,7 @@ This Privacy Policy applies only to our online activities and is valid for visit
       
       <guid>https://lc-research.com/blog/mactowin/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;I just got some folders from a Mac user. I see hundreds of ._ files and .DS_Store files all over my file system. Is it safe to delete these files? How can I get rid of them quickly?&lt;/p&gt;
+&lt;p&gt;When you  transfer files and folders from Macs to PCs and USB sticks a whole bunch of ._ files and .DS_Store files are generated. While there is no way to prevent this from happening, there is an easy way to get rid of these pesky files. This post shows you how.&lt;/p&gt;
 &lt;/blockquote&gt;</description>
     </item>
     
@@ -78,8 +78,8 @@ This Privacy Policy applies only to our online activities and is valid for visit
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://lc-research.com/about/</guid>
-      <description>There are plenty of blogs on tech and gadgets. Engadget, Gizmodo, C|net, you name it. Why do we need another one?
-I use all sorts of technologies to make my life easier. I thoroughly research products before I buy them. Once in a while, when something fails, I need to go back and fix something or reconfigure some software that I setup ages ago. The only problem is keeping everything in my memory, especially those that involve multiple steps.</description>
+      <description>There are plenty of blogs on tech and gadgets. Engadget, Gizmodo, C|net, you name it. Why would I write another tech blog. Isn&amp;rsquo;t this space crowded enough. My intention with this blog is not to compete with any other tech blog. This blog is a by product of my attempt to document some tech stuff.
+I dread doing repetitive tasks. Technology helped me immensely to automate things and simplify my life.</description>
     </item>
     
   </channel>

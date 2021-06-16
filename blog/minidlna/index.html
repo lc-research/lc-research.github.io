@@ -9,7 +9,7 @@
 	<meta name="description" content="">
 		<meta property="og:title" content="Setting up a Raspberry Pi Media Server" />
 <meta property="og:description" content="
-I got a whole bunch of movies, audio files and photos on my laptop. I am tired of copying these files to other devices at home. Is there anyway to keep them in one location and stream to all of my TVs, mobile phones, tablets and computers on the home network.
+Wouldn&rsquo;t it be nice to store all of your media files in one location and stream them to any device on your home network? An inexpensive Raspberry Pi and a couple of USB sticks can get the job done! This post guides you through all the steps required, step by step.
 " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://lc-research.com/blog/minidlna/" /><meta property="article:section" content="blog" />
@@ -19,7 +19,7 @@ I got a whole bunch of movies, audio files and photos on my laptop. I am tired o
 
 		<meta itemprop="name" content="Setting up a Raspberry Pi Media Server">
 <meta itemprop="description" content="
-I got a whole bunch of movies, audio files and photos on my laptop. I am tired of copying these files to other devices at home. Is there anyway to keep them in one location and stream to all of my TVs, mobile phones, tablets and computers on the home network.
+Wouldn&rsquo;t it be nice to store all of your media files in one location and stream them to any device on your home network? An inexpensive Raspberry Pi and a couple of USB sticks can get the job done! This post guides you through all the steps required, step by step.
 "><meta itemprop="datePublished" content="2021-06-09T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2021-06-09T00:00:00&#43;00:00" />
 <meta itemprop="wordCount" content="1175">
@@ -27,7 +27,7 @@ I got a whole bunch of movies, audio files and photos on my laptop. I am tired o
 		<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Setting up a Raspberry Pi Media Server"/>
 <meta name="twitter:description" content="
-I got a whole bunch of movies, audio files and photos on my laptop. I am tired of copying these files to other devices at home. Is there anyway to keep them in one location and stream to all of my TVs, mobile phones, tablets and computers on the home network.
+Wouldn&rsquo;t it be nice to store all of your media files in one location and stream them to any device on your home network? An inexpensive Raspberry Pi and a couple of USB sticks can get the job done! This post guides you through all the steps required, step by step.
 "/>
 
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -104,7 +104,7 @@ if (!doNotTrack) {
 	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">Dr. Lochana C. Menikarachchi</span>
 </div>
 <div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-06-09T00:00:00Z">2021-06-09</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/it/" rel="category">IT</a>, <a class="meta__link" href="/categories/tutorials/" rel="category">Tutorials</a>
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-06-09T00:00:00Z">2021-06-09</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/tutorials/" rel="category">Tutorials</a>
 	</span>
 </div></div>
 		</header>
@@ -112,7 +112,7 @@ if (!doNotTrack) {
 			<img src="/img/blog/pi.jpg" alt="Setting up a Raspberry Pi Media Server">
 		</figure><div class="content post__content clearfix">
 			<blockquote>
-<p>I got a whole bunch of movies, audio files and photos on my laptop. I am tired of copying these files to other devices at home. Is there anyway to keep them in one location and stream to all of my TVs, mobile phones, tablets and computers on the home network.</p>
+<p>Wouldn&rsquo;t it be nice to store all of your media files in one location and stream them to any device on your home network? An inexpensive Raspberry Pi and a couple of USB sticks can get the job done! This post guides you through all the steps required, step by step.</p>
 </blockquote>
 <p>It has been a little over three years since I have setup a Raspberry Pi based wireless media server. This little media server has done a great job and it continues to function flawlessly serving many DLNA clients in the home network including one 3D projector, several mobile phones, tablets, PCs and Macs. I needed an always on light weight media server that can serve all of my DLNA compliant devices. Three years back, when I was setting this up, I tried out many different media servers including KODI, OSMC, Plex and MiniDLNA.  At the end, I settled for a MiniDLNA server on a Raspberry Pi 3B+. My choice couldn&rsquo;t have been better.</p>
 <h4 id="what-is-dlna">What is DLNA?</h4>
@@ -336,8 +336,6 @@ friendly_name<span style="color:#f92672">=</span>Name of your DLNA server
 	<h4 class="widget__title">Categories</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
-			<li class="widget__item">
-				<a class="widget__link" href="/categories/it/">IT</a></li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/mobile-apps/">Mobile Apps</a></li>
 			<li class="widget__item">
