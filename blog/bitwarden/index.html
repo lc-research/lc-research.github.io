@@ -4,30 +4,30 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>My First Glide App - LC-Research</title>
+	<title>Taking Control of Your Passwords with Bitwarden - LC-Research</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
-		<meta property="og:title" content="My First Glide App" />
+		<meta property="og:title" content="Taking Control of Your Passwords with Bitwarden" />
 <meta property="og:description" content="
-Glide is a no coding mobile app development platform that allows mobile apps to be built from Google spreadsheets. This post outlines my experience with Glide and how I built my first no coding app with a Google spreadsheet in just a few hours.
+Having to deal with many passwords is a fact of life. A password manager like Bitwarden can ease the burden of inventing and remembering passwords. This step-by-step tutorial explains how to setup Bitwarden with its browser extension for Chrome.
 " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://lc-research.com/blog/glide/" /><meta property="article:section" content="blog" />
-<meta property="article:published_time" content="2021-06-05T00:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2021-06-05T00:00:00&#43;00:00" />
+<meta property="og:url" content="https://lc-research.com/blog/bitwarden/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2021-06-17T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2021-06-17T00:00:00&#43;00:00" />
 
 
-		<meta itemprop="name" content="My First Glide App">
+		<meta itemprop="name" content="Taking Control of Your Passwords with Bitwarden">
 <meta itemprop="description" content="
-Glide is a no coding mobile app development platform that allows mobile apps to be built from Google spreadsheets. This post outlines my experience with Glide and how I built my first no coding app with a Google spreadsheet in just a few hours.
-"><meta itemprop="datePublished" content="2021-06-05T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2021-06-05T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="664">
-<meta itemprop="keywords" content="Glide,No Code," />
+Having to deal with many passwords is a fact of life. A password manager like Bitwarden can ease the burden of inventing and remembering passwords. This step-by-step tutorial explains how to setup Bitwarden with its browser extension for Chrome.
+"><meta itemprop="datePublished" content="2021-06-17T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2021-06-17T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1137">
+<meta itemprop="keywords" content="Bitwarden,Password Manager," />
 		<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="My First Glide App"/>
+<meta name="twitter:title" content="Taking Control of Your Passwords with Bitwarden"/>
 <meta name="twitter:description" content="
-Glide is a no coding mobile app development platform that allows mobile apps to be built from Google spreadsheets. This post outlines my experience with Glide and how I built my first no coding app with a Google spreadsheet in just a few hours.
+Having to deal with many passwords is a fact of life. A password manager like Bitwarden can ease the burden of inventing and remembering passwords. This step-by-step tutorial explains how to setup Bitwarden with its browser extension for Chrome.
 "/>
 
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -99,197 +99,77 @@ if (!doNotTrack) {
 <main class="main" role="main">
 	<article class="post">
 		<header class="post__header">
-			<h1 class="post__title">My First Glide App</h1>
+			<h1 class="post__title">Taking Control of Your Passwords with Bitwarden</h1>
 			<div class="post__meta meta"><div class="meta__item-author meta__item">
 	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">Dr. Lochana C. Menikarachchi</span>
 </div>
 <div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-06-05T00:00:00Z">2021-06-05</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/mobile-apps/" rel="category">Mobile Apps</a>, <a class="meta__link" href="/categories/reviews/" rel="category">Reviews</a>
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-06-17T00:00:00Z">2021-06-17</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/tutorials/" rel="category">Tutorials</a>
 	</span>
 </div></div>
 		</header>
 		<figure class="post__thumbnail">
-			<img src="/img/blog/glide.jpg" alt="My First Glide App">
+			<img src="/img/blog/bitwarden.jpg" alt="Taking Control of Your Passwords with Bitwarden">
 		</figure><div class="content post__content clearfix">
 			<blockquote>
-<p>Glide is a no coding mobile app development platform that allows mobile apps to be built from Google spreadsheets. This post outlines my experience with Glide and how I built my first no coding app with a Google spreadsheet in just a few hours.</p>
+<p>Having to deal with many passwords is a fact of life. A password manager like Bitwarden can ease the burden of inventing and remembering passwords. This step-by-step tutorial explains how to setup Bitwarden with its browser extension for Chrome.</p>
 </blockquote>
-<p>Over the years, I have acquired a fair number of  electronic devices. Many of these carry built in batteries and require frequent charging. Only a few of these devices are in regular use. Many sit in shelves, sometimes even months without any use. To much of my dismay, a few of these silently died in shelves due to completely drained batteries. After loosing a fair amount of beloved gadgets, I finally decided to have some control over the charging business.</p>
-<h4 id="a-personal-mobile-app">A Personal Mobile App?</h4>
-<p>I figured, an app that can keep track of charge status of my devices might solve the problem. Surely, someone must have thought of this and built an app. To my surprise, after many hours of searching through the play store, I found nothing. I did not find a single free or paid app that is even closer to my expectations. Only rational solution seemed to be building one on my own.</p>
-<p>I started to contemplate about my choices. Building an android app from scratch is a lot of work. Since, I have built several JavaFX desktop applications, writing the app in java with Gluon Mobile seemed like a better idea. That too will take a quite a bit of time. While googling, I came across several <strong>no code</strong> platforms that promised apps with no coding at all. I was skeptical, but intrigued nonetheless.</p>
-<h4 id="the-choices">The Choices</h4>
-<p>I was particularly interested in no code platforms that turn google sheets into mobile apps. After some research, I narrowed it down to two choices: Glide or Google AppSheet. Google AppSheet appeared to be more powerful but, the learning curve also seemed to be more steep. At least, that was my first impression. Glide seemed simple enough and the visual interface of Glide was not as daunting as Google AppSheet&rsquo;s. The features offered in the free tier of Glide were good enough for my Charge Tracker app. As of this writing, Glide apps do not work offline. Google Appsheet is the better choice if working offline is a requirement.</p>
-<h4 id="limitations-in-free-glide-apps">Limitations in Free Glide Apps</h4>
-<p>The free version of Glide allows you to build a personal app with following limitations.</p>
+<p>We deal with several dozens of passwords everyday, from emails, to banking, to online shopping. While most of us are well aware of the risks of using the same password, we tend to reuse passwords. The reason for this bad habit is quite simple: it is humanly impossible to keep track of fifty-odd passwords. But, software (more precisely password management software) have no problem doing that. This is exactly why most of us hit the <strong>Yes</strong> button when <strong>Chrome</strong> offers us to save passwords. We hit the <strong>Yes</strong> button almost unconsciously, without any regard to its consequences. Letting your browser save your &ldquo;one size fits all&rdquo; password is not going to solve your problem. In fact it is going to cause more trouble down the line. Knowing all these well, I myself have committed this crime for the longest time. I had a rude awakening some months ago when Chrome started to constantly nag me about compromised passwords. Not one or two but, some twenty-odd passwords. That is when I finally decided to use a password manager.</p>
+<p>If you are in the market for a password manager, you got many choices: free and paid; offline and online; simple and fairly complicated. I needed a good quality <strong>free password manger with online access.</strong> It had to be simple enough because I wanted to get my wife to use it too. After doing some research, I have decided to go with the free version of Bitwarden.</p>
+<h4 id="bitwarden">Bitwarden</h4>
+<p>Bitwarden is an open source password management system. Bitwarden offers both free and paid versions: multiple paid plans are available for individuals, families and organizations. The free version of Bitwarden has enough features to satisfy most individual users. In 2021, U.S. News and World Report ranked Bitwarden as the <strong>&ldquo;Best Password Manger&rdquo;</strong> in its first-ever password-protection program comparison. The Bitwarden password management service offers desktop, mobile, browser based and command line  client applications for wide variety of systems.</p>
+<h4 id="foolish-assumptions">Foolish Assumptions</h4>
+<p>As a writer, I must make some assumptions about the readers of this blog post to provide the right amount of information. This blog post assumes that you,</p>
 <ul>
-<li>Only mobile layouts. No tablet or desktop layouts.</li>
-<li>Up to 500 data rows in sheets can be visualized to users.</li>
-<li>Google sheets can be updated up to 1000 times per month. This includes app triggered updates as well as manual updates.</li>
-<li>A maximum of 100 MB data can be uploaded to the app. This includes images and other files.</li>
-<li>App resides on the glideapp.io domain. Custom domains are not allowed.</li>
-<li>Only one user can sign into the app at once.</li>
-<li>Glide branding &ldquo;Made with Glide&rdquo; appears at the app launch.</li>
+<li>use Chrome or a similar web browser</li>
+<li>primarily deals with passwords while browsing</li>
+<li>are storing passwords in the browser&rsquo;s built in password manager or have it enabled (even though you are not storing passwords)</li>
 </ul>
-<p>What I have mentioned above is not a comprehensive list of limitations. These limits might also change according to the policies of Typeguard Inc., the company behind Glide apps. For a complete list of limitations in free apps, visit <a href="https://docs.glideapps.com/all/etc/faq/limits-on-free-apps">https://docs.glideapps.com/all/etc/faq/limits-on-free-apps</a>.</p>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-2690761581108402"
-     data-ad-slot="2806109972"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<h4 id="the-verdict">The Verdict</h4>
-<p>Glide&rsquo;s sales pitch is an app within 5 minutes! Can you really make an app within 5 minutes? Perhaps, if you knew ins and outs of Glide interface and Google sheets really well. Realistically, it will take sometime to learn the Glide web interface, to setup your google sheet and populate it with data and image URLs. We are looking at at least, couple of hours here. You can come up with a really good looking app within few hours. In my opinion, it is a really good deal compared to building a personal app from scratch which might take months.</p>
-<h4 id="charge-tracker">Charge Tracker</h4>
-<p>Here are some screenshots of my Charge Tracker app.</p>
-<p>
-
-
-<div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
-	  
-
-<link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
-<div class="box" >
-  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <div class="img" style="background-image: url('/img/blog/glide/CT1.jpg');">
-      <img itemprop="thumbnail" src="/img/blog/glide/CT1.jpg" alt="Initial Screen"/>
-    </div>
-    <a href="/img/blog/glide/CT1.jpg" itemprop="contentUrl"></a>
-      <figcaption>
-          <p>Initial Screen</p>
-      </figcaption>
-  </figure>
-</div>
-
-
-
-<div class="box" >
-  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <div class="img" style="background-image: url('/img/blog/glide/CT2.jpg');">
-      <img itemprop="thumbnail" src="/img/blog/glide/CT2.jpg" alt="Load Screen"/>
-    </div>
-    <a href="/img/blog/glide/CT2.jpg" itemprop="contentUrl"></a>
-      <figcaption>
-          <p>Load Screen</p>
-      </figcaption>
-  </figure>
-</div>
-
-
-
-<div class="box" >
-  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <div class="img" style="background-image: url('/img/blog/glide/CT3.jpg');">
-      <img itemprop="thumbnail" src="/img/blog/glide/CT3.jpg" alt="Statistics Screen"/>
-    </div>
-    <a href="/img/blog/glide/CT3.jpg" itemprop="contentUrl"></a>
-      <figcaption>
-          <p>Statistics Screen</p>
-      </figcaption>
-  </figure>
-</div>
-
-
-
-<div class="box" >
-  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <div class="img" style="background-image: url('/img/blog/glide/CT4.jpg');">
-      <img itemprop="thumbnail" src="/img/blog/glide/CT4.jpg" alt="Device List Screen"/>
-    </div>
-    <a href="/img/blog/glide/CT4.jpg" itemprop="contentUrl"></a>
-      <figcaption>
-          <p>Device List Screen</p>
-      </figcaption>
-  </figure>
-</div>
-
-
-
-<div class="box" >
-  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <div class="img" style="background-image: url('/img/blog/glide/CT5.jpg');">
-      <img itemprop="thumbnail" src="/img/blog/glide/CT5.jpg" alt="Device Details Screen"/>
-    </div>
-    <a href="/img/blog/glide/CT5.jpg" itemprop="contentUrl"></a>
-      <figcaption>
-          <p>Device Details Screen</p>
-      </figcaption>
-  </figure>
-</div>
-
-
-</div>
-
-
-
-
-
-  
-
-
-<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-<script src="/js/load-photoswipe.js"></script>
-
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
-
-
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
-<div class="pswp__bg"></div>
-
-<div class="pswp__scroll-wrap">
-    
-    <div class="pswp__container">
-      <div class="pswp__item"></div>
-      <div class="pswp__item"></div>
-      <div class="pswp__item"></div>
-    </div>
-    
-    <div class="pswp__ui pswp__ui--hidden">
-    <div class="pswp__top-bar">
-      
-      <div class="pswp__counter"></div>
-      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-      <button class="pswp__button pswp__button--share" title="Share"></button>
-      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-      
-      
-      <div class="pswp__preloader">
-        <div class="pswp__preloader__icn">
-          <div class="pswp__preloader__cut">
-            <div class="pswp__preloader__donut"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-      <div class="pswp__share-tooltip"></div>
-    </div>
-    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-    </button>
-    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-    </button>
-    <div class="pswp__caption">
-      <div class="pswp__caption__center"></div>
-    </div>
-    </div>
-    </div>
-</div>
-</p>
+<h4 id="step-1-disabling-browsers-built-in-password-manager">Step 1: Disabling Browser&rsquo;s Built in Password Manager</h4>
+<p>If you are planning to switchover to Bitwarden, it is a good idea to turn off Chrome&rsquo;s built in password manager. The last thing you need is two password managers competing to store your passwords. You can disable Chrome&rsquo;s built in password manager by following the steps below.</p>
+<ol>
+<li>
+<p>Click the three dots on the top right corner of the browser and select &ldquo;Settings&rdquo; from the dropdown menu.</p>
+</li>
+<li>
+<p>Locate the &ldquo;Autofill&rdquo; box, click the arrow next to &ldquo;Passwords&rdquo; and turn off &ldquo;Offer to save passwords&rdquo;. <strong>Important:</strong> If you don&rsquo;t have a record of your existing passwords, check under &ldquo;Saved passwords&rdquo; in Chrome&rsquo;s password manager. Please make sure to have a backup of your existing passwords before you disable Chrome&rsquo;s built in password manager.</p>
+</li>
+<li>
+<p>Repeat this process for the other two &ldquo;Autofill&rdquo; options: &ldquo;Payment methods&rdquo; and &ldquo;Addresses and more&rdquo;</p>
+</li>
+</ol>
+<p><img src="/img/blog/bitwarden/ChromePM.gif" alt="ChromePM"></p>
+<p>Instructions for other browsers may be obtained from an online search query such as &ldquo;how to disable password manager in [<em>your browser&rsquo;s name</em>]&rdquo;.</p>
+<h4 id="step-2-registering-for-a-free-personal-plan-on-bitwarden">Step 2: Registering for a Free Personal Plan on Bitwarden</h4>
+<p>In order to register for an account on Bitwarden, you need a master password. Master password is the password that you use to access your Bitwarden account. Without this you have no access to passwords stored in the Bitwarden vault. It is extremely important to pick a <strong>long, complex and unique password</strong> as your <strong>master password.</strong> For any reason, do not use a password that you have used for any other purpose. This password has to be unique and there should not be a second instance of this password. One popular method is to use a sentence that make no sense as your master password. You can also store a password hint at the registration. Follow <a href="https://vault.bitwarden.com/#/register">this link</a> to register for a free personal plan.</p>
+<h4 id="step-3-installing-the-browser-extension">Step 3: Installing the Browser Extension</h4>
+<p>Visit Bitwarden <a href="https://bitwarden.com/download/">downloads page</a> and click on the relevant web browser link to get the browser extension. Follow the instructions to install the browser extension.</p>
+<h4 id="step-4-basic-usage">Step 4: Basic Usage</h4>
+<p>I will explain the basic usage of Bitwarden using their browser extension for Chrome. The same principles should apply to other browser extensions and desktop clients although the look and feel of different clients may vary.</p>
+<p>You can log in to Bitwarden by clicking the browser extension icon. In Chrome, this is usually located next to the address bar. Type in your master password and log in to Bitwarden. By default, your login expires when you close the browser. As shown below, the browser extension has 5 tabs.</p>
+<ol>
+<li>Tab</li>
+<li>My Vault</li>
+<li>Send</li>
+<li>Generator</li>
+<li>Settings</li>
+</ol>
+<p><img src="/img/blog/bitwarden/BWChrome.gif" alt="BWChrome"></p>
+<h5 id="1-tab">1. Tab</h5>
+<p>Once you log in, you are in &ldquo;Tab&rdquo;. Tab shows logins for currently selected web page. In my animated example, I have Linkedin login page opened and &ldquo;Tab&rdquo; shows Linkedin. If I click on that link it will automatically fill in the login credentials.</p>
+<h5 id="2-my-vault">2. My Vault</h5>
+<p>Bitwarden allows you to store 4 types of items in the vault; <strong>Logins, Cards, Identities, and Secure Notes.</strong> Logins are used for storing username/password combinations. Cards can be used for storing credit and debit card information. Identities are used for storing various personal information that can be used in the filling of online forms such as shipping information or billing information. Secure Notes can be used for storing encrypted textual information. All four types of items can be organized into folders. Click on the + button on the top right corner to create a new item. Select the type and fill out the information to create a new item. You can use Bitwarden&rsquo;s built in password generator (button with two arrows) to generate a password or passphrase.</p>
+<h5 id="3-send">3. Send</h5>
+<p>Send is a mechanism to share encrypted sensitive information with just anyone. You can send any textual information or file attachments up to 500 MB via sends. The link can be texted or e-mailed to anyone. The recipient doesn&rsquo;t need to have Bitwarden installed.</p>
+<h5 id="4-generator">4. Generator</h5>
+<p>Generator is Bitwarden&rsquo;s password/passphrase generator. You can customize your passwords/passphrases to specified lengths including capitalizations, numbers and other special characters.</p>
+<h5 id="5-settings">5. Settings</h5>
+<p>Settings tab allows you to manage your folders, sync your data and change account related settings.</p>
+<p>I think that&rsquo;s enough information to get you started. For more information please visit <a href="https://bitwarden.com/help/">Bitwarden help pages</a>.</p>
 		</div>
 		<div class="views">
 			<span class="views">
-				<img src="https://visitor-badge.glitch.me/badge?page_id=https%3a%2f%2flc-research.com%2fblog%2fglide%2f" alt="Views"/>
+				<img src="https://visitor-badge.glitch.me/badge?page_id=https%3a%2f%2flc-research.com%2fblog%2fbitwarden%2f" alt="Views"/>
 			</span>
 		</div>
 		<footer class="post__footer">
@@ -298,10 +178,10 @@ if (!doNotTrack) {
 	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
 	<ul class="tags__list">
 		<li class="tags__item">
-			<a class="tags__link btn" href="/tags/glide/" rel="tag">Glide</a>
+			<a class="tags__link btn" href="/tags/bitwarden/" rel="tag">Bitwarden</a>
 		</li>
 		<li class="tags__item">
-			<a class="tags__link btn" href="/tags/no-code/" rel="tag">No Code</a>
+			<a class="tags__link btn" href="/tags/password-manager/" rel="tag">Password Manager</a>
 		</li>
 	</ul>
 </div>
