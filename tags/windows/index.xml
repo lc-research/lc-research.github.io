@@ -13,7 +13,29 @@
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lc-research.com/blog/mactowin/</guid>
-      <description>When you  transfer files and folders from Macs to PCs and USB sticks a whole bunch of ._ files and .DS_Store files are generated. While there is no way to prevent this from happening, there is an easy way to get rid of these pesky files. This post shows you how.</description>
+      <description>&lt;p&gt;You may be a Windows user who received a bunch of folders from a work colleague who is using a Mac. Or you may be frequently sharing files between a Mac and a Windows computer. Or you may be copying files from your Mac to USB sticks. Whatever the use case, you must have encountered the mystical and annoying ._ files.&lt;/p&gt;
+&lt;p&gt;What exactly are these files? How do you get rid of them? These are the questions that I hope to answer in this blog post.&lt;/p&gt;
+&lt;h4 id=&#34;appledouble-files&#34;&gt;AppleDouble Files&lt;/h4&gt;
+&lt;p&gt;Under Macintosh file systems such as HFS (Hierarchical File System), HFS+ (also known as MacOS Extended) or APFS (Apple File System) files are composed of two pieces called forks. These two pieces are called data fork and resource fork. The data fork is akin to what we call a file in Windows. It contains the actual data like text in a word document. The resource fork contains the meta data and extended attributes. What appears as a single file under the Macintosh file system splits into two files under certain other file systems such as FAT. The file with the same name as the original contains the data fork. The file that starts with ._original file name contains the resource fork. This is the origin of mystical &amp;ldquo;AppleDouble&amp;rdquo; files.&lt;/p&gt;
+&lt;h4 id=&#34;desktop-services-store-files&#34;&gt;Desktop Services Store Files&lt;/h4&gt;
+&lt;p&gt;The default file manager in the Apple macOS operating system, Finder creates Desktop Services Store files (abbreviated as .DS_Store) in every folder. The .DS_Store files keep metadata about its containing folder. These include things like positions of icons and information about background images. When a folder is transferred from a Mac to a PC or a USB stick, these macOS hidden files starts to show up under all directories.&lt;/p&gt;
+&lt;h4 id=&#34;windows-del-command-to-the-rescue&#34;&gt;Windows del Command to the Rescue&lt;/h4&gt;
+&lt;p&gt;Windows del command that deletes one or more files can be used to wipe out ._ and .DS_Store files. This command can be run from Windows Command Prompt. The syntax shown below will not work under Windows PowerShell.&lt;/p&gt;
+&lt;p&gt;The command &lt;strong&gt;del /s /f /q /a:h ._*&lt;/strong&gt; should get rid of all AppleDouble files.&lt;/p&gt;
+&lt;p&gt;The command &lt;strong&gt;del /s /f /q /a:h .DS_Store&lt;/strong&gt; should get rid of desktop services store files.&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;/f&lt;/strong&gt; flag forces deletion of read-only files. The &lt;strong&gt;/s&lt;/strong&gt; flag makes deletion recursive through current sub directory and all of its sub directories. The &lt;strong&gt;/q&lt;/strong&gt; which stand for quiet mode prevents prompt for delete confirmation. Finally, the &lt;strong&gt;/a:h&lt;/strong&gt; attribute makes deletion of hidden files possible.&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-2690761581108402&#34;
+     data-ad-slot=&#34;2806109972&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

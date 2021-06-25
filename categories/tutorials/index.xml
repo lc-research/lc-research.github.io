@@ -13,7 +13,81 @@
       <pubDate>Thu, 17 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lc-research.com/blog/bitwarden/</guid>
-      <description>Having to deal with many passwords is a fact of life. A password manager like Bitwarden can ease the burden of inventing and remembering passwords. This step-by-step tutorial explains how to setup Bitwarden with its browser extension for Chrome.</description>
+      <description>&lt;p&gt;We deal with several dozens of passwords everyday, from emails, to banking, to online shopping. While most of us are well aware of the risks of using the same password, we tend to reuse passwords. The reason for this bad habit is quite simple: it is humanly impossible to keep track of fifty-odd passwords. But, software (more precisely password management software) have no problem doing that. This is exactly why most of us hit the &lt;strong&gt;Yes&lt;/strong&gt; button when &lt;strong&gt;Chrome&lt;/strong&gt; offers us to save passwords. We hit the &lt;strong&gt;Yes&lt;/strong&gt; button almost unconsciously, without any regard to its consequences. Letting your browser save your &amp;ldquo;one size fits all&amp;rdquo; password is not going to solve your problem. In fact it is going to cause more trouble down the line. Knowing all these well, I myself have committed this crime for the longest time. I had a rude awakening some months ago when Chrome started to constantly nag me about compromised passwords. Not one or two but, some twenty-odd passwords. That is when I finally decided to use a password manager.&lt;/p&gt;
+&lt;p&gt;If you are in the market for a password manager, you got many choices: free and paid; offline and online; simple and fairly complicated. I needed a good quality &lt;strong&gt;free password manger with online access.&lt;/strong&gt; It had to be simple enough because I wanted to get my wife to use it too. After doing some research, I have decided to go with the free version of Bitwarden.&lt;/p&gt;
+&lt;h4 id=&#34;bitwarden&#34;&gt;Bitwarden&lt;/h4&gt;
+&lt;p&gt;Bitwarden is an open source password management system. Bitwarden offers both free and paid versions: multiple paid plans are available for individuals, families and organizations. The free version of Bitwarden has enough features to satisfy most individual users. In 2021, U.S. News and World Report ranked Bitwarden as the &lt;strong&gt;&amp;ldquo;Best Password Manger&amp;rdquo;&lt;/strong&gt; in its first-ever password-protection program comparison. The Bitwarden password management service offers desktop, mobile, browser based and command line  client applications for wide variety of systems.&lt;/p&gt;
+&lt;h4 id=&#34;foolish-assumptions&#34;&gt;Foolish Assumptions&lt;/h4&gt;
+&lt;p&gt;As a writer, I must make some assumptions about the readers of this blog post to provide the right amount of information. This blog post assumes that you,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;use Chrome or a similar web browser&lt;/li&gt;
+&lt;li&gt;primarily deals with passwords while browsing&lt;/li&gt;
+&lt;li&gt;are storing passwords in the browser&amp;rsquo;s built in password manager or have it enabled (even though you are not storing passwords)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-2690761581108402&#34;
+     data-ad-slot=&#34;2806109972&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;h4 id=&#34;step-1-disabling-browsers-built-in-password-manager&#34;&gt;Step 1: Disabling Browser&amp;rsquo;s Built in Password Manager&lt;/h4&gt;
+&lt;p&gt;If you are planning to switchover to Bitwarden, it is a good idea to turn off Chrome&amp;rsquo;s built in password manager. The last thing you need is two password managers competing to store your passwords. You can disable Chrome&amp;rsquo;s built in password manager by following the steps below.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Click the three dots on the top right corner of the browser and select &amp;ldquo;Settings&amp;rdquo; from the dropdown menu.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Locate the &amp;ldquo;Autofill&amp;rdquo; box, click the arrow next to &amp;ldquo;Passwords&amp;rdquo; and turn off &amp;ldquo;Offer to save passwords&amp;rdquo;. &lt;strong&gt;Important:&lt;/strong&gt; If you don&amp;rsquo;t have a record of your existing passwords, check under &amp;ldquo;Saved passwords&amp;rdquo; in Chrome&amp;rsquo;s password manager. Please make sure to have a backup of your existing passwords before you disable Chrome&amp;rsquo;s built in password manager.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Repeat this process for the other two &amp;ldquo;Autofill&amp;rdquo; options: &amp;ldquo;Payment methods&amp;rdquo; and &amp;ldquo;Addresses and more&amp;rdquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;https://lc-research.com/img/blog/bitwarden/ChromePM.gif&#34; alt=&#34;ChromePM&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Instructions for other browsers may be obtained from an online search query such as &amp;ldquo;how to disable password manager in [&lt;em&gt;your browser&amp;rsquo;s name&lt;/em&gt;]&amp;rdquo;.&lt;/p&gt;
+&lt;h4 id=&#34;step-2-registering-for-a-free-personal-plan-on-bitwarden&#34;&gt;Step 2: Registering for a Free Personal Plan on Bitwarden&lt;/h4&gt;
+&lt;p&gt;In order to register for an account on Bitwarden, you need a master password. Master password is the password that you use to access your Bitwarden account. Without this you have no access to passwords stored in the Bitwarden vault. It is extremely important to pick a &lt;strong&gt;long, complex and unique password&lt;/strong&gt; as your &lt;strong&gt;master password.&lt;/strong&gt; For any reason, do not use a password that you have used for any other purpose. This password has to be unique and there should not be a second instance of this password. One popular method is to use a sentence that make no sense as your master password. You can also store a password hint at the registration. Follow &lt;a href=&#34;https://vault.bitwarden.com/#/register&#34;&gt;this link&lt;/a&gt; to register for a free personal plan.&lt;/p&gt;
+&lt;h4 id=&#34;step-3-installing-the-browser-extension&#34;&gt;Step 3: Installing the Browser Extension&lt;/h4&gt;
+&lt;p&gt;Visit Bitwarden &lt;a href=&#34;https://bitwarden.com/download/&#34;&gt;downloads page&lt;/a&gt; and click on the relevant web browser link to get the browser extension. Follow the instructions to install the browser extension.&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-2690761581108402&#34;
+     data-ad-slot=&#34;2806109972&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;h4 id=&#34;step-4-basic-usage&#34;&gt;Step 4: Basic Usage&lt;/h4&gt;
+&lt;p&gt;I will explain the basic usage of Bitwarden using their browser extension for Chrome. The same principles should apply to other browser extensions and desktop clients although the look and feel of different clients may vary.&lt;/p&gt;
+&lt;p&gt;You can log in to Bitwarden by clicking the browser extension icon. In Chrome, this is usually located next to the address bar. Type in your master password and log in to Bitwarden. By default, your login expires when you close the browser. As shown below, the browser extension has 5 tabs.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Tab&lt;/li&gt;
+&lt;li&gt;My Vault&lt;/li&gt;
+&lt;li&gt;Send&lt;/li&gt;
+&lt;li&gt;Generator&lt;/li&gt;
+&lt;li&gt;Settings&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;https://lc-research.com/img/blog/bitwarden/BWChrome.gif&#34; alt=&#34;BWChrome&#34;&gt;&lt;/p&gt;
+&lt;h5 id=&#34;1-tab&#34;&gt;1. Tab&lt;/h5&gt;
+&lt;p&gt;Once you log in, you are in &amp;ldquo;Tab&amp;rdquo;. Tab shows logins for currently selected web page. In my animated example, I have Linkedin login page opened and &amp;ldquo;Tab&amp;rdquo; shows Linkedin. If I click on that link it will automatically fill in the login credentials.&lt;/p&gt;
+&lt;h5 id=&#34;2-my-vault&#34;&gt;2. My Vault&lt;/h5&gt;
+&lt;p&gt;Bitwarden allows you to store 4 types of items in the vault; &lt;strong&gt;Logins, Cards, Identities, and Secure Notes.&lt;/strong&gt; Logins are used for storing username/password combinations. Cards can be used for storing credit and debit card information. Identities are used for storing various personal information that can be used in the filling of online forms such as shipping information or billing information. Secure Notes can be used for storing encrypted textual information. All four types of items can be organized into folders. Click on the + button on the top right corner to create a new item. Select the type and fill out the information to create a new item. You can use Bitwarden&amp;rsquo;s built in password generator (button with two arrows) to generate a password or passphrase.&lt;/p&gt;
+&lt;h5 id=&#34;3-send&#34;&gt;3. Send&lt;/h5&gt;
+&lt;p&gt;Send is a mechanism to share encrypted sensitive information with just anyone. You can send any textual information or file attachments up to 500 MB via sends. The link can be texted or e-mailed to anyone. The recipient doesn&amp;rsquo;t need to have Bitwarden installed.&lt;/p&gt;
+&lt;h5 id=&#34;4-generator&#34;&gt;4. Generator&lt;/h5&gt;
+&lt;p&gt;Generator is Bitwarden&amp;rsquo;s password/passphrase generator. You can customize your passwords/passphrases to specified lengths including capitalizations, numbers and other special characters.&lt;/p&gt;
+&lt;h5 id=&#34;5-settings&#34;&gt;5. Settings&lt;/h5&gt;
+&lt;p&gt;Settings tab allows you to manage your folders, sync your data and change account related settings.&lt;/p&gt;
+&lt;p&gt;I think that&amp;rsquo;s enough information to get you started. For more information please visit &lt;a href=&#34;https://bitwarden.com/help/&#34;&gt;Bitwarden help pages&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -22,7 +96,115 @@
       <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lc-research.com/blog/twstotv/</guid>
-      <description>How wonderful is it to have your TV audio streamed to your wireless earbuds? This post shows you how you can connect two pairs of TWS earbuds or bluetooth headsets with any TV or projector. Finally, two can watch a movie on the big screen without disturbing others.</description>
+      <description>&lt;p&gt;Since my son&amp;rsquo;s arrival, watching a TV show or a movie on a TV became a near impossible task. Our little guy seemed to have a super hearing that could detect even inaudible footsteps miles away. He would wake up to the tiniest of tiny sounds. We had no choice but to put watching movies on big screen to the back burner. My poor wife resort to watching short video clips on her mobile phone with a wired earphone. I hated anything with wires and it was TWS (True Wireless Stereo) earbuds for me. We needed a way to watch a movie on the big screen without waking our baby up. None of the TVs we owned had bluetooth audio. Our projector had bluetooth, but, it was only for its magic remote. All of them, however, had USB ports and 3.5mm headphone jacks. It got me thinking that I might be able to connect TWS earbuds if I could turn these headphone jacks into bluetooth transmitters.&lt;/p&gt;
+&lt;h4 id=&#34;a-bluetooth-transmitter-with-a-35mm-plug&#34;&gt;A Bluetooth Transmitter With a 3.5mm Plug&lt;/h4&gt;
+&lt;p&gt;As it turned out, this is a common problem encountered by many people. Therefore, there were lots of products on the market. Since there were so many choices, selecting one was a daunting task. Many of these products had a bluetooth headset icon on the packaging. However, to my surprise, none of them specifically listed their compatibility with TWS earbuds. In fact, I found none that claimed to be compatible with TWS earbuds. After some research, I could broadly classify them into four categories.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Bluetooth transmitter/receiver combo products with built in rechargeable batteries.&lt;/li&gt;
+&lt;li&gt;Bluetooth transmitter/receiver combo products powered by USB or other power sources.&lt;/li&gt;
+&lt;li&gt;Bluetooth transmitters with built in rechargeable batteries.&lt;/li&gt;
+&lt;li&gt;Bluetooth transmitters powered by USB or other power sources.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Bluetooth transmitter/receiver (transceivers) combo products allow switching between transmitter and receiver function. You can use one of these modes at a time by flipping a switch. Rechargeable devices can hold charge for 3 hours to 12 hours depending on the model. These are great if you wish to spare your USBs for other purposes. For example, if you got only one USB port where you plug in USB sticks with media files. The downside is you need to keep it charged. There is also the risk of permanently damaging the device if you neglect to charge it for a long period of time. USB powered bluetooth transmitters are great if you want to plug in the device and forget about it. The only downside is you need to permanently sacrifice one USB port to power the device. In my case, I opted for a USB powered transmitter.&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-2690761581108402&#34;
+     data-ad-slot=&#34;2806109972&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;h4 id=&#34;ugreen-cm107&#34;&gt;UGREEN CM107&lt;/h4&gt;
+&lt;p&gt;After some research, I have decided to purchase Model CM107 from UGREEN. Although, UGREEN hasn&amp;rsquo;t specifically mentioned its compatibility with TWS earbuds on the product page, there were some FAQs pointing to its compatibility with TWS earbuds. CM107 had few other plus points including Bluetooth 5.0, AptX low latency technology and two simultaneous bluetooth connections. The product reviews of CM107 across several retail sites also seem to be quite decent.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://lc-research.com/img/blog/twstotv/cm107.jpg&#34; alt=&#34;cm107&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Following is the technical specification of UGREEN CM107.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Parameter&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Specification&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Bluetooth version&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;5.0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Frequency range&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;2.402GHz - 2.480GHz&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Bluetooth protocol&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;A2DP&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Input&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;3.5mm stereo audio or optical audio port&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Input electrical level&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1Vrms&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;SNR&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&amp;gt;90db&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;IOperating distance&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Up to 10m&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Input electrical level&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;1 Vrms&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Total harmonic distortion&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&amp;lt;0.1%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Power supply&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;5V Micro USB&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Dimensions&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;L68 x W13 x H13 (mm)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Cable length&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;50cm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Support two point connection&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Supports HiFi, SBC, AptX, and AptX LL&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;aptx&#34;&gt;AptX&lt;/h4&gt;
+&lt;p&gt;AptX (Audio Processing Technology X) is an audio codec &lt;strong&gt;compression algorithm&lt;/strong&gt; owned by Qualcomm. It compresses and decompresses audio as it travels from the source device to the destination device without loosing quality. This ensures high quality audio with very low latency.&lt;/p&gt;
+&lt;h4 id=&#34;setting-it-all-up&#34;&gt;Setting It All Up&lt;/h4&gt;
+&lt;p&gt;Connecting and pairing CM107 is quite easy. You can get the job done by connecting the 3.5mm plug of CM107 to the 3.5mm port of your TV and powering it up with the provided micro USB cable. When you start up CM107 for the first time, it is in its pairing mode (blinking blue light). If you bring a pair of TWS earbuds within 10m, it should automatically pair up. If this fails, try switching off CM107 and manually putting it into pairing mode. A long press for 3 seconds will turn off or on the unit. Double clicking the button will put it into pairing mode. If everything fails try resetting the device. A long press of the button for 10 seconds will reset the unit to factory default. This is indicated by the blue light that keeps on for 2.5 seconds.&lt;/p&gt;
+&lt;p&gt;If you wish to pair a second bluetooth device, turn off the first device and switch the transmitter to pairing mode again. Connect the second device by bringing it closer to the transmitter (within 10m). Once it is connected, turn on the first device. The first device will automatically reconnect to the transmitter. This way, you can enjoy bluetooth audio through two devices at the same time. When pairing two devices, they need to be within 5m from each other. If you are out of the transmit range for more than 5 minutes, your earbuds will automatically disconnect. A single button press on the transmitter will reconnect the earbuds when it is back in the effective range.&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-2690761581108402&#34;
+     data-ad-slot=&#34;2806109972&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;In my testings&#39;, I could sustain two stable connections with RedMi Airdots (Non AptX) and Haylou GT1 XR (AptX). However, when I connected two AptX supported earbuds (Haylou T19 and Haylou GT1 XR), the audio started to break frequently making it almost unusable. While I cannot generalize this as an AptX issue, it seemed to be the case. A single connection with any of my AptX devices worked fine. If you are planning to use this approach for watching movies, I recommend you buy a pair of TWS earbuds with at least 4 hours runtime.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -31,7 +213,138 @@
       <pubDate>Wed, 09 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lc-research.com/blog/minidlna/</guid>
-      <description>Wouldn&amp;rsquo;t it be nice to store all of your media files in one location and stream them to any device on your home network? An inexpensive Raspberry Pi and a couple of USB sticks can get the job done! This post guides you through all the steps required, step by step.</description>
+      <description>&lt;p&gt;It has been a little over three years since I have setup a Raspberry Pi based wireless media server. This little media server has done a great job and it continues to function flawlessly serving many DLNA clients in the home network including one 3D projector, several mobile phones, tablets, PCs and Macs. I needed an always on light weight media server that can serve all of my DLNA compliant devices. Three years back, when I was setting this up, I tried out many different media servers including KODI, OSMC, Plex and MiniDLNA.  At the end, I settled for a MiniDLNA server on a Raspberry Pi 3B+. My choice couldn&amp;rsquo;t have been better.&lt;/p&gt;
+&lt;h4 id=&#34;what-is-dlna&#34;&gt;What is DLNA?&lt;/h4&gt;
+&lt;p&gt;DLNA, which stands for &lt;strong&gt;Digital Living Network Alliance&lt;/strong&gt; is an industry-wide standard for sharing digital media over a home network. DLNA compatible clients can connect to a DLNA server and consume digital media on the server through the home network. Any DLNA certified TV, projector or streaming device can act as a DLNA client. PCs, Macs, Linux boxes, mobile phones and tablets can be converted to DLNA clients by using appropriate DLNA client software. Any PC, Mac or Linux box can be configured as a DLNA server. Tiny single board computers such as Raspberry Pis are gaining popularity as DLNA servers due to their small footprint and low energy consumption. However, these credit card sized computers are limited by their processing power and other computational resources.&lt;/p&gt;
+&lt;h4 id=&#34;the-server-hardware&#34;&gt;The Server Hardware&lt;/h4&gt;
+&lt;p&gt;I opted for the single board computer Raspberry Pi 3B+. It was the latest version of Raspberry Pi available back then. The Pi 3B+ came with the following specification.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SoC: Broadcom BCM2837B0 quad-core A53 (ARMv8) 64-bit @ 1.4GHz&lt;/li&gt;
+&lt;li&gt;GPU: Broadcom Videocore-IV&lt;/li&gt;
+&lt;li&gt;RAM: 1GB LPDDR2 SDRAM&lt;/li&gt;
+&lt;li&gt;Networking: Gigabit Ethernet (via USB channel), 2.4GHz and 5GHz 802.11b/g/n/ac Wi-Fi&lt;/li&gt;
+&lt;li&gt;Bluetooth: Bluetooth 4.2, Bluetooth Low Energy (BLE)&lt;/li&gt;
+&lt;li&gt;Storage: Micro-SD&lt;/li&gt;
+&lt;li&gt;GPIO: 40-pin GPIO header, populated&lt;/li&gt;
+&lt;li&gt;Ports: HDMI, 3.5mm analogue audio-video jack, 4x USB 2.0, Ethernet, Camera Serial Interface (CSI), Display Serial Interface (DSI)&lt;/li&gt;
+&lt;li&gt;Dimensions: 82mm x 56mm x 19.5mm, 50g&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I housed my Pi 3B+ in an aluminum enclosure that doubles as a giant heat sink. This keeps Pi&amp;rsquo;s CPU and GPU temperatures around 46 degrees Celsius when idle. It runs the latest version of Raspberry Pi OS Lite. This operating system and other necessary software occupied approximately 10% of the Micro-SD card storage space. When idle, only 12% of the RAM is used. I have two USB 3.0 drives (128 GB drive for photos and 256 GB drive for movies) plugged into my Pi 3B+.&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-2690761581108402&#34;
+     data-ad-slot=&#34;2806109972&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;h4 id=&#34;the-server-software&#34;&gt;The Server Software&lt;/h4&gt;
+&lt;p&gt;I have installed the Lite version of Raspberry Pi OS. This 444 MB download is much smaller than its desktop counterparts. It does not include a graphical user interface or other optional bundled software. You can easily transfer the downloaded OS image to a Micro SD card via Raspberry Pi Imager downloadable from &lt;a href=&#34;https://raspberrypi.org&#34;&gt;https://raspberrypi.org&lt;/a&gt;.&lt;/p&gt;
+&lt;h4 id=&#34;setting-up-raspberry-pi&#34;&gt;Setting-up Raspberry Pi&lt;/h4&gt;
+&lt;p&gt;Here is a step by step guide to setup your Raspberry Pi based media server.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Download the Raspberry Pi Lite OS image from &lt;a href=&#34;https://raspberrypi.org&#34;&gt;https://raspberrypi.org&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Download the Raspberry Pi Imager from the same web site.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Insert the Micro SD card to your computer&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Transfer the image to Micro SD card using Raspberry Pi Imager. To do this, open up Raspberry Pi Imager → Click on CHOOSE OS → Scroll down and select &amp;ldquo;Use custom&amp;rdquo; → Select the downloaded zip file → Click on Write&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Insert the Micro SD card into Raspberry Pi, connect a mouse and a keyboard and turn on the device.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Login to your Pi with default username (pi) and password (raspberry)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Execute the following command&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo raspi-config
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select Network Options → Wifi and enter your SSID and password.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Secure Socket Shell Protocol (SSH) is quite useful for configuring the Pi over the network. You can enable SSH using following commands.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo systemctl enable ssh
+sudo systemctl start ssh
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Update the Pi&amp;rsquo;s software to the latest version by running following commands.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo apt update
+sudo apt upgrade
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Install MiniDLNA with the following command.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo apt install minidlna
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Plugin your USB drives. In my case, I plugged in two USB 3.0 drives.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Mount your USB drives as follows.&lt;/p&gt;
+&lt;p&gt;i. Find UUIDs (Universally Unique Identifiers) of your USB drives by executing the following command.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;blkid
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;ii. Note down UUIDs of your USB drives.&lt;/p&gt;
+&lt;p&gt;iii. Create mount points for your USB drives. Mount points are folders that point to the contents of your flash drives. Change ownership of folders to the pi user.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo mkdir /mnt/photo
+sudo mkdir /mnt/video
+sudo chown -R pi:pi /mnt/photo
+sudo chown -R pi:pi /mnt/video
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;iv. Open the fstab file with nano editor.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo nano /etc/fstab
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Add the following lines to fstab. Make sure to replace my UUIDs and mount points with yours.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;UUID&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;3E1D-1C18 /mnt/photo vfat uid&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;pi,gid&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;pi &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;
+UUID&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;84AB-130E /mnt/video vfat uid&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;pi,gid&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;pi &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Use Ctrl+O to save and Ctrl+X to exit nano editor.&lt;/p&gt;
+&lt;p&gt;v. Reboot the Pi with the following command.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo reboot
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Open the minidlna configuration file located under /etc with nano editor.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo nano /etc/minidlna.conf
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Add the following lines to minidlna configuration file. My photos are located under the MyPhotos folder in one usb drive and videos are located under the Media → Videos folder in the other drive. Here, &lt;strong&gt;P&lt;/strong&gt; stands for Photo and &lt;strong&gt;V&lt;/strong&gt; stands for Video. You can use &lt;strong&gt;A&lt;/strong&gt; for audio. Use Ctrl+O to save and Ctrl+X to exit nano editor.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;media_dir&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;P,/mnt/photo/MyPhotos
+media_dir&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;V,/mnt/video/Media/Videos
+friendly_name&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;Name of your DLNA server
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Restart the minidlna service with the following command.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;sudo systemctl restart minidlna
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;At this point you should have a fully functional DLNA server. It should pop up in all of your DLNA compliant devices. You can check the status of your MiniDLNA server by visiting http://IP address of your pi:8200. You can locate the IP address by executing the following command.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;hostname -I
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;https://lc-research.com/img/blog/minidlna/minidlna.jpg&#34; alt=&#34;minidlna&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;dlna-clients&#34;&gt;DLNA Clients&lt;/h4&gt;
+&lt;p&gt;If your TV or projector supports DLNA, your DLNA server should pop up under inputs. If you are using a PC, you should be able to stream media with Windows Media Player. I use DLNA client app, Movian downloadable from &lt;a href=&#34;https://movian.tv&#34;&gt;https://movian.tv&lt;/a&gt; on my android devices and Macs.&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-2690761581108402&#34;
+     data-ad-slot=&#34;2806109972&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;h4 id=&#34;raspcontroller&#34;&gt;RaspController&lt;/h4&gt;
+&lt;p&gt;RaspController is an app that you can download from the Google play store. The free version of RaspController can be used for monitoring and basic maintenance of the media server. It can also be used to shutdown or reboot your Pi.&lt;/p&gt;
+&lt;h4 id=&#34;transferring-files-to-dlna-server&#34;&gt;Transferring Files to DLNA Server&lt;/h4&gt;
+&lt;p&gt;I found it slow to transfer large video files over the network to Pi. My workflow involves shutting down the server with RaspController, unplugging the USBs, transferring the files directly from a computer and re plugging USBs to Pi. Since, this is an occasional chore, it works out well for me.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -40,7 +353,29 @@
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://lc-research.com/blog/mactowin/</guid>
-      <description>When you  transfer files and folders from Macs to PCs and USB sticks a whole bunch of ._ files and .DS_Store files are generated. While there is no way to prevent this from happening, there is an easy way to get rid of these pesky files. This post shows you how.</description>
+      <description>&lt;p&gt;You may be a Windows user who received a bunch of folders from a work colleague who is using a Mac. Or you may be frequently sharing files between a Mac and a Windows computer. Or you may be copying files from your Mac to USB sticks. Whatever the use case, you must have encountered the mystical and annoying ._ files.&lt;/p&gt;
+&lt;p&gt;What exactly are these files? How do you get rid of them? These are the questions that I hope to answer in this blog post.&lt;/p&gt;
+&lt;h4 id=&#34;appledouble-files&#34;&gt;AppleDouble Files&lt;/h4&gt;
+&lt;p&gt;Under Macintosh file systems such as HFS (Hierarchical File System), HFS+ (also known as MacOS Extended) or APFS (Apple File System) files are composed of two pieces called forks. These two pieces are called data fork and resource fork. The data fork is akin to what we call a file in Windows. It contains the actual data like text in a word document. The resource fork contains the meta data and extended attributes. What appears as a single file under the Macintosh file system splits into two files under certain other file systems such as FAT. The file with the same name as the original contains the data fork. The file that starts with ._original file name contains the resource fork. This is the origin of mystical &amp;ldquo;AppleDouble&amp;rdquo; files.&lt;/p&gt;
+&lt;h4 id=&#34;desktop-services-store-files&#34;&gt;Desktop Services Store Files&lt;/h4&gt;
+&lt;p&gt;The default file manager in the Apple macOS operating system, Finder creates Desktop Services Store files (abbreviated as .DS_Store) in every folder. The .DS_Store files keep metadata about its containing folder. These include things like positions of icons and information about background images. When a folder is transferred from a Mac to a PC or a USB stick, these macOS hidden files starts to show up under all directories.&lt;/p&gt;
+&lt;h4 id=&#34;windows-del-command-to-the-rescue&#34;&gt;Windows del Command to the Rescue&lt;/h4&gt;
+&lt;p&gt;Windows del command that deletes one or more files can be used to wipe out ._ and .DS_Store files. This command can be run from Windows Command Prompt. The syntax shown below will not work under Windows PowerShell.&lt;/p&gt;
+&lt;p&gt;The command &lt;strong&gt;del /s /f /q /a:h ._*&lt;/strong&gt; should get rid of all AppleDouble files.&lt;/p&gt;
+&lt;p&gt;The command &lt;strong&gt;del /s /f /q /a:h .DS_Store&lt;/strong&gt; should get rid of desktop services store files.&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;/f&lt;/strong&gt; flag forces deletion of read-only files. The &lt;strong&gt;/s&lt;/strong&gt; flag makes deletion recursive through current sub directory and all of its sub directories. The &lt;strong&gt;/q&lt;/strong&gt; which stand for quiet mode prevents prompt for delete confirmation. Finally, the &lt;strong&gt;/a:h&lt;/strong&gt; attribute makes deletion of hidden files possible.&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:block; text-align:center;&#34;
+     data-ad-layout=&#34;in-article&#34;
+     data-ad-format=&#34;fluid&#34;
+     data-ad-client=&#34;ca-pub-2690761581108402&#34;
+     data-ad-slot=&#34;2806109972&#34;&gt;&lt;/ins&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>
