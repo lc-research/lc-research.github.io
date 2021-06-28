@@ -6,7 +6,16 @@
     <description>Recent content on LC-Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://lc-research.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Jun 2021 16:13:05 +0530</lastBuildDate><atom:link href="https://lc-research.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Care for Your Laptop&#39;s Battery</title>
+      <link>https://lc-research.com/blog/laptopbattery/</link>
+      <pubDate>Sat, 26 Jun 2021 16:13:05 +0530</pubDate>
+      
+      <guid>https://lc-research.com/blog/laptopbattery/</guid>
+      <description>Almost all mobile computers have a built-in lithium-ion battery. These batteries that seem to last forever at the beginning hold less and less charge as they age. Is there anyway to delay the degradation of lithium batteries? What practices could potentially prolong or harm the lithium batteries found in everyday laptops? This post aims to shed some light on this topic by debunking common battery myths.</description>
+    </item>
+    
     <item>
       <title>Taking Control of Your Passwords with Bitwarden</title>
       <link>https://lc-research.com/blog/bitwarden/</link>

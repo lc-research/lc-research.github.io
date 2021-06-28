@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Windows on LC-Research</title>
-    <link>https://lc-research.com/tags/windows/</link>
-    <description>Recent content in Windows on LC-Research</description>
+    <title>Laptop Batteries on LC-Research</title>
+    <link>https://lc-research.com/tags/laptop-batteries/</link>
+    <description>Recent content in Laptop Batteries on LC-Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 26 Jun 2021 16:13:05 +0530</lastBuildDate><atom:link href="https://lc-research.com/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Jun 2021 16:13:05 +0530</lastBuildDate><atom:link href="https://lc-research.com/tags/laptop-batteries/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Care for Your Laptop&#39;s Battery</title>
       <link>https://lc-research.com/blog/laptopbattery/</link>
@@ -14,15 +14,6 @@
       
       <guid>https://lc-research.com/blog/laptopbattery/</guid>
       <description>Almost all mobile computers have a built-in lithium-ion battery. These batteries that seem to last forever at the beginning hold less and less charge as they age. Is there anyway to delay the degradation of lithium batteries? What practices could potentially prolong or harm the lithium batteries found in everyday laptops? This post aims to shed some light on this topic by debunking common battery myths.</description>
-    </item>
-    
-    <item>
-      <title>Getting Rid of ._ and .DS_Store Files</title>
-      <link>https://lc-research.com/blog/mactowin/</link>
-      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://lc-research.com/blog/mactowin/</guid>
-      <description>When you  transfer files and folders from Macs to PCs and USB sticks a whole bunch of ._ files and .DS_Store files are generated. While there is no way to prevent this from happening, there is an easy way to get rid of these pesky files. This post shows you how.</description>
     </item>
     
   </channel>
