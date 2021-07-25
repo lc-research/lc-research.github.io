@@ -115,8 +115,6 @@ if (!doNotTrack) {
 <p>The default file manager in the Apple macOS operating system, Finder creates Desktop Services Store files (abbreviated as .DS_Store) in every folder. The .DS_Store files keep metadata about its containing folder. These include things like positions of icons and information about background images. When a folder is transferred from a Mac to a PC or a USB stick, these macOS hidden files starts to show up under all directories.</p>
 <h4 id="windows-del-command-to-the-rescue">Windows del Command to the Rescue</h4>
 <p>Windows del command that deletes one or more files can be used to wipe out ._ and .DS_Store files. This command can be run from Windows Command Prompt. The syntax shown below will not work under Windows PowerShell.</p>
-<p>The command <strong>del /s /f /q /a:h ._*</strong> should get rid of all AppleDouble files.</p>
-<p>The command <strong>del /s /f /q /a:h .DS_Store</strong> should get rid of desktop services store files.</p>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <ins class="adsbygoogle"
      style="display:block; text-align:center;"
@@ -128,6 +126,8 @@ if (!doNotTrack) {
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 <p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>The command <strong>del /s /f /q /a:h ._*</strong> should get rid of all AppleDouble files.</p>
+<p>The command <strong>del /s /f /q /a:h .DS_Store</strong> should get rid of desktop services store files.</p>
 <p>The <strong>/f</strong> flag forces deletion of read-only files. The <strong>/s</strong> flag makes deletion recursive through current sub directory and all of its sub directories. The <strong>/q</strong> which stand for quiet mode prevents prompt for delete confirmation. Finally, the <strong>/a:h</strong> attribute makes deletion of hidden files possible.</p>
 
 		</div>
