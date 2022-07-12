@@ -18,7 +18,7 @@
 		<meta itemprop="name" content="Setting up a Raspberry Pi Media Server">
 <meta itemprop="description" content="A Tutorial on Setting-up MiniDLNA on a Raspberry Pi"><meta itemprop="datePublished" content="2021-06-09T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2021-06-09T00:00:00+00:00" />
-<meta itemprop="wordCount" content="1124"><meta itemprop="image" content="https://lc-research.com/img/blog/pi.jpg">
+<meta itemprop="wordCount" content="1114"><meta itemprop="image" content="https://lc-research.com/img/blog/pi.jpg">
 <meta itemprop="keywords" content="Raspberry Pi,DLNA,Movian,RaspController," />
 		<meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://lc-research.com/img/blog/pi.jpg"/>
@@ -161,65 +161,65 @@ if (!doNotTrack) {
 </li>
 <li>
 <p>Execute the following command</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo raspi-config
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo raspi-config
+</span></span></code></pre></div></li>
 <li>
 <p>Select Network Options → Wifi and enter your SSID and password.</p>
 </li>
 <li>
 <p>Secure Socket Shell Protocol (SSH) is quite useful for configuring the Pi over the network. You can enable SSH using following commands.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo systemctl enable ssh
-sudo systemctl start ssh
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo systemctl enable ssh
+</span></span><span style="display:flex;"><span>sudo systemctl start ssh
+</span></span></code></pre></div></li>
 <li>
 <p>Update the Pi&rsquo;s software to the latest version by running following commands.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo apt update
-sudo apt upgrade
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo apt update
+</span></span><span style="display:flex;"><span>sudo apt upgrade
+</span></span></code></pre></div></li>
 <li>
 <p>Install MiniDLNA with the following command.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo apt install minidlna
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo apt install minidlna
+</span></span></code></pre></div></li>
 <li>
 <p>Plugin your USB drives. In my case, I plugged in two USB 3.0 drives.</p>
 </li>
 <li>
 <p>Mount your USB drives as follows.</p>
 <p>i. Find UUIDs (Universally Unique Identifiers) of your USB drives by executing the following command.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">blkid
-</code></pre></div><p>ii. Note down UUIDs of your USB drives.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>blkid
+</span></span></code></pre></div><p>ii. Note down UUIDs of your USB drives.</p>
 <p>iii. Create mount points for your USB drives. Mount points are folders that point to the contents of your flash drives. Change ownership of folders to the pi user.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo mkdir /mnt/photo
-sudo mkdir /mnt/video
-sudo chown -R pi:pi /mnt/photo
-sudo chown -R pi:pi /mnt/video
-</code></pre></div><p>iv. Open the fstab file with nano editor.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo nano /etc/fstab
-</code></pre></div><p>Add the following lines to fstab. Make sure to replace my UUIDs and mount points with yours.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">UUID<span style="color:#f92672">=</span>3E1D-1C18 /mnt/photo vfat uid<span style="color:#f92672">=</span>pi,gid<span style="color:#f92672">=</span>pi <span style="color:#ae81ff">0</span> <span style="color:#ae81ff">0</span>
-UUID<span style="color:#f92672">=</span>84AB-130E /mnt/video vfat uid<span style="color:#f92672">=</span>pi,gid<span style="color:#f92672">=</span>pi <span style="color:#ae81ff">0</span> <span style="color:#ae81ff">0</span>
-</code></pre></div><p>Use Ctrl+O to save and Ctrl+X to exit nano editor.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo mkdir /mnt/photo
+</span></span><span style="display:flex;"><span>sudo mkdir /mnt/video
+</span></span><span style="display:flex;"><span>sudo chown -R pi:pi /mnt/photo
+</span></span><span style="display:flex;"><span>sudo chown -R pi:pi /mnt/video
+</span></span></code></pre></div><p>iv. Open the fstab file with nano editor.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo nano /etc/fstab
+</span></span></code></pre></div><p>Add the following lines to fstab. Make sure to replace my UUIDs and mount points with yours.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>UUID<span style="color:#f92672">=</span>3E1D-1C18 /mnt/photo vfat uid<span style="color:#f92672">=</span>pi,gid<span style="color:#f92672">=</span>pi <span style="color:#ae81ff">0</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>UUID<span style="color:#f92672">=</span>84AB-130E /mnt/video vfat uid<span style="color:#f92672">=</span>pi,gid<span style="color:#f92672">=</span>pi <span style="color:#ae81ff">0</span> <span style="color:#ae81ff">0</span>
+</span></span></code></pre></div><p>Use Ctrl+O to save and Ctrl+X to exit nano editor.</p>
 <p>v. Reboot the Pi with the following command.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo reboot
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo reboot
+</span></span></code></pre></div></li>
 <li>
 <p>Open the minidlna configuration file located under /etc with nano editor.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo nano /etc/minidlna.conf
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo nano /etc/minidlna.conf
+</span></span></code></pre></div></li>
 <li>
 <p>Add the following lines to minidlna configuration file. My photos are located under the MyPhotos folder in one usb drive and videos are located under the Media → Videos folder in the other drive. Here, <strong>P</strong> stands for Photo and <strong>V</strong> stands for Video. You can use <strong>A</strong> for audio. Use Ctrl+O to save and Ctrl+X to exit nano editor.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">media_dir<span style="color:#f92672">=</span>P,/mnt/photo/MyPhotos
-media_dir<span style="color:#f92672">=</span>V,/mnt/video/Media/Videos
-friendly_name<span style="color:#f92672">=</span>Name of your DLNA server
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>media_dir<span style="color:#f92672">=</span>P,/mnt/photo/MyPhotos
+</span></span><span style="display:flex;"><span>media_dir<span style="color:#f92672">=</span>V,/mnt/video/Media/Videos
+</span></span><span style="display:flex;"><span>friendly_name<span style="color:#f92672">=</span>Name of your DLNA server
+</span></span></code></pre></div></li>
 <li>
 <p>Restart the minidlna service with the following command.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">sudo systemctl restart minidlna
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo systemctl restart minidlna
+</span></span></code></pre></div></li>
 <li>
 <p>At this point you should have a fully functional DLNA server. It should pop up in all of your DLNA compliant devices. You can check the status of your MiniDLNA server by visiting http://IP address of your pi:8200. You can locate the IP address by executing the following command.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hostname -I
-</code></pre></div></li>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>hostname -I
+</span></span></code></pre></div></li>
 </ol>
 <p><img src="/img/blog/minidlna/minidlna.jpg" alt="minidlna"></p>
 <h4 id="dlna-clients">DLNA Clients</h4>
@@ -391,7 +391,7 @@ friendly_name<span style="color:#f92672">=</span>Name of your DLNA server
 	<a class="footer__link" href="/disclaimer/">Disclaimer</a> | <a class="footer__link" href="/privacy/">Privacy Policy</a>
 </div>
 		<div class="footer__copyright">
-			&copy; 2021 Dr. Lochana C. Menikarachchi.
+			&copy; 2022 Dr. Lochana C. Menikarachchi.
 			<span class="footer__copyright-credits"></span>
 		</div>
 	</div>
