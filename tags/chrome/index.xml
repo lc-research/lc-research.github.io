@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chrome on LC-Research</title>
-    <link>https://lc-research.com/tags/chrome/</link>
+    <link>https://lc-research.github.io/tags/chrome/</link>
     <description>Recent content in Chrome on LC-Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://lc-research.com/tags/chrome/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://lc-research.github.io/tags/chrome/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Taking Control of Your Passwords with Bitwarden</title>
-      <link>https://lc-research.com/blog/bitwarden/</link>
+      <link>https://lc-research.github.io/blog/bitwarden/</link>
       <pubDate>Thu, 17 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://lc-research.com/blog/bitwarden/</guid>
+      <guid>https://lc-research.github.io/blog/bitwarden/</guid>
       <description>Having to deal with many passwords is a fact of life. A password manager like Bitwarden can ease the burden of inventing and remembering passwords. This step-by-step tutorial explains how to setup Bitwarden with its browser extension for Chrome.</description>
     </item>
     

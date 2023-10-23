@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on LC-Research</title>
-    <link>https://lc-research.com/categories/</link>
+    <link>https://lc-research.github.io/categories/</link>
     <description>Recent content in Categories on LC-Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://lc-research.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://lc-research.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tutorials</title>
-      <link>https://lc-research.com/categories/tutorials/</link>
+      <link>https://lc-research.github.io/categories/tutorials/</link>
       <pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://lc-research.com/categories/tutorials/</guid>
+      <guid>https://lc-research.github.io/categories/tutorials/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Reviews</title>
-      <link>https://lc-research.com/categories/reviews/</link>
+      <link>https://lc-research.github.io/categories/reviews/</link>
       <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://lc-research.com/categories/reviews/</guid>
+      <guid>https://lc-research.github.io/categories/reviews/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mobile Apps</title>
-      <link>https://lc-research.com/categories/mobile-apps/</link>
+      <link>https://lc-research.github.io/categories/mobile-apps/</link>
       <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://lc-research.com/categories/mobile-apps/</guid>
+      <guid>https://lc-research.github.io/categories/mobile-apps/</guid>
       <description></description>
     </item>
     

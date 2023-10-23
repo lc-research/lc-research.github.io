@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AptX on LC-Research</title>
-    <link>https://lc-research.com/tags/aptx/</link>
+    <link>https://lc-research.github.io/tags/aptx/</link>
     <description>Recent content in AptX on LC-Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://lc-research.com/tags/aptx/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://lc-research.github.io/tags/aptx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Connecting TWS Earbuds to Any TV or Projector</title>
-      <link>https://lc-research.com/blog/twstotv/</link>
+      <link>https://lc-research.github.io/blog/twstotv/</link>
       <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://lc-research.com/blog/twstotv/</guid>
+      <guid>https://lc-research.github.io/blog/twstotv/</guid>
       <description>How wonderful is it to have your TV audio streamed to your wireless earbuds? This post shows you how you can connect two pairs of TWS earbuds or bluetooth headsets with any TV or projector. Finally, two can watch a movie on the big screen without disturbing others.</description>
     </item>
     

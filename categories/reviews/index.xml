@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Reviews on LC-Research</title>
-    <link>https://lc-research.com/categories/reviews/</link>
+    <link>https://lc-research.github.io/categories/reviews/</link>
     <description>Recent content in Reviews on LC-Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://lc-research.com/categories/reviews/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://lc-research.github.io/categories/reviews/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Connecting TWS Earbuds to Any TV or Projector</title>
-      <link>https://lc-research.com/blog/twstotv/</link>
+      <link>https://lc-research.github.io/blog/twstotv/</link>
       <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://lc-research.com/blog/twstotv/</guid>
+      <guid>https://lc-research.github.io/blog/twstotv/</guid>
       <description>How wonderful is it to have your TV audio streamed to your wireless earbuds? This post shows you how you can connect two pairs of TWS earbuds or bluetooth headsets with any TV or projector. Finally, two can watch a movie on the big screen without disturbing others.</description>
     </item>
     
     <item>
       <title>My First Glide App</title>
-      <link>https://lc-research.com/blog/glide/</link>
+      <link>https://lc-research.github.io/blog/glide/</link>
       <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://lc-research.com/blog/glide/</guid>
+      <guid>https://lc-research.github.io/blog/glide/</guid>
       <description>Glide is a no coding mobile app development platform that allows mobile apps to be built from Google spreadsheets. This post outlines my experience with Glide and how I built my first no coding app with a Google spreadsheet in just a few hours.</description>
     </item>
     

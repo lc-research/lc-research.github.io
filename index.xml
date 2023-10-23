@@ -2,63 +2,63 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LC-Research</title>
-    <link>https://lc-research.com/</link>
+    <link>https://lc-research.github.io/</link>
     <description>Recent content on LC-Research</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 17 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://lc-research.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://lc-research.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Pick a Reading Light</title>
-      <link>https://lc-research.com/blog/readinglights/</link>
+      <link>https://lc-research.github.io/blog/readinglights/</link>
       <pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://lc-research.com/blog/readinglights/</guid>
+      <guid>https://lc-research.github.io/blog/readinglights/</guid>
       <description>A reading light is a must have gadget for most avid readers. If you are in the market for a reading light, you might find a dizzying array of options available to you. Deciding which one to pick largely depends on your reading habits. With this post, I offer some helpful advice on things to consider when buying a reading light.</description>
     </item>
     
     <item>
       <title>How to Care for Your Laptop&#39;s Battery</title>
-      <link>https://lc-research.com/blog/laptopbattery/</link>
+      <link>https://lc-research.github.io/blog/laptopbattery/</link>
       <pubDate>Sat, 26 Jun 2021 16:13:05 +0530</pubDate>
       
-      <guid>https://lc-research.com/blog/laptopbattery/</guid>
+      <guid>https://lc-research.github.io/blog/laptopbattery/</guid>
       <description>Almost all mobile computers have a built-in lithium-ion battery. Batteries that seem to last forever at the beginning hold less and less charge as they age. Is there anyway to delay the degradation of lithium batteries? What practices could potentially prolong or harm the lithium batteries found in everyday laptops? This post aims to shed some light on this topic by debunking common battery myths.</description>
     </item>
     
     <item>
       <title>Taking Control of Your Passwords with Bitwarden</title>
-      <link>https://lc-research.com/blog/bitwarden/</link>
+      <link>https://lc-research.github.io/blog/bitwarden/</link>
       <pubDate>Thu, 17 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://lc-research.com/blog/bitwarden/</guid>
+      <guid>https://lc-research.github.io/blog/bitwarden/</guid>
       <description>Having to deal with many passwords is a fact of life. A password manager like Bitwarden can ease the burden of inventing and remembering passwords. This step-by-step tutorial explains how to setup Bitwarden with its browser extension for Chrome.</description>
     </item>
     
     <item>
       <title>Connecting TWS Earbuds to Any TV or Projector</title>
-      <link>https://lc-research.com/blog/twstotv/</link>
+      <link>https://lc-research.github.io/blog/twstotv/</link>
       <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://lc-research.com/blog/twstotv/</guid>
+      <guid>https://lc-research.github.io/blog/twstotv/</guid>
       <description>How wonderful is it to have your TV audio streamed to your wireless earbuds? This post shows you how you can connect two pairs of TWS earbuds or bluetooth headsets with any TV or projector. Finally, two can watch a movie on the big screen without disturbing others.</description>
     </item>
     
     <item>
       <title>Disclaimer</title>
-      <link>https://lc-research.com/disclaimer/</link>
+      <link>https://lc-research.github.io/disclaimer/</link>
       <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://lc-research.com/disclaimer/</guid>
+      <guid>https://lc-research.github.io/disclaimer/</guid>
       <description>WEBSITE DISCLAIMER The information provided by LC-Research (“Company”, “we”, “our”, “us”) on https://lc-research.com (the “Site”) is for general informational purposes only. All information on the Site is provided in good faith, however we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the Site.
 UNDER NO CIRCUMSTANCE SHALL WE HAVE ANY LIABILITY TO YOU FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE OF THE SITE OR RELIANCE ON ANY INFORMATION PROVIDED ON THE SITE.</description>
     </item>
     
     <item>
       <title>Privacy Policy</title>
-      <link>https://lc-research.com/privacy/</link>
+      <link>https://lc-research.github.io/privacy/</link>
       <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://lc-research.com/privacy/</guid>
+      <guid>https://lc-research.github.io/privacy/</guid>
       <description>At LC-Research, accessible from lc-research.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by LC-Research and how we use it.
 If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.
 This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in LC-Research.</description>
@@ -66,37 +66,37 @@ This Privacy Policy applies only to our online activities and is valid for visit
     
     <item>
       <title>Setting up a Raspberry Pi Media Server</title>
-      <link>https://lc-research.com/blog/minidlna/</link>
+      <link>https://lc-research.github.io/blog/minidlna/</link>
       <pubDate>Wed, 09 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://lc-research.com/blog/minidlna/</guid>
+      <guid>https://lc-research.github.io/blog/minidlna/</guid>
       <description>Wouldn&amp;rsquo;t it be nice to store all of your media files in one location and stream them to any device on your home network? An inexpensive Raspberry Pi and a couple of USB sticks can get the job done! This post guides you through all the steps required, step by step.</description>
     </item>
     
     <item>
       <title>My First Glide App</title>
-      <link>https://lc-research.com/blog/glide/</link>
+      <link>https://lc-research.github.io/blog/glide/</link>
       <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://lc-research.com/blog/glide/</guid>
+      <guid>https://lc-research.github.io/blog/glide/</guid>
       <description>Glide is a no coding mobile app development platform that allows mobile apps to be built from Google spreadsheets. This post outlines my experience with Glide and how I built my first no coding app with a Google spreadsheet in just a few hours.</description>
     </item>
     
     <item>
       <title>Getting Rid of ._ and .DS_Store Files</title>
-      <link>https://lc-research.com/blog/mactowin/</link>
+      <link>https://lc-research.github.io/blog/mactowin/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://lc-research.com/blog/mactowin/</guid>
+      <guid>https://lc-research.github.io/blog/mactowin/</guid>
       <description>When you  transfer files and folders from Macs to PCs and USB sticks a whole bunch of ._ files and .DS_Store files are generated. While there is no way to prevent this from happening, there is an easy way to get rid of these pesky files. This post shows you how.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://lc-research.com/about/</link>
+      <link>https://lc-research.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://lc-research.com/about/</guid>
+      <guid>https://lc-research.github.io/about/</guid>
       <description>I hope to share my thoughts or expertise on certain technologies through this blog. I will also post tutorials on various topics that interest me. Some posts are documentations for future me. Each blog post starts with a small summary about the problem. These summaries, accessible from the front page should give you an idea about the post&amp;rsquo;s content. I hope at least some of these posts will be useful to you.</description>
     </item>
     
